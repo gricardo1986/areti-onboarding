@@ -1,0 +1,2866 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i'); 
+
+
+.containerabsolute{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: max-content;
+    height: max-content;
+    background-image:url(images/background/background.png);
+    background-repeat:no-repeat;
+    background-size: 1466px 150%;
+}
+
+    /* ................................. */
+    /* INICIO: Background                */
+    /* ................................. */
+    .backgroundabsolute {
+        background-image:url(images/background/background.png);
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-size: contain;
+    }
+    /* ................................. */
+    /* FIN: Background                   */
+    /* ................................. */
+
+      /* ................................. */
+        /* INICIO: Logo                      */
+        /* ................................. */
+        .logo {
+            width: 144px;
+            height: 50px;
+            position: absolute; 
+            left: 200px;
+            top: 36px; 
+            right: 1022px;
+            bottom: 682px;
+            background-image:url(images/logo/logo_header.png);
+            background-repeat:no-repeat;
+            background-size:cover;
+        }
+        /* ................................. */
+        /* FIN: logo                         */
+        /* ................................. */
+
+        /* ................................. */
+        /* INICIO: Country select            */
+        /* ................................. */
+        .country1 {
+            width: 105.8px;
+            height: 29.5px;
+            flex-grow: 0;
+            padding-left: 20px;
+            padding-right: 20px;
+            position: absolute;
+            left:1100.3px;
+            top:55.4px;
+            right: 239.1px;
+            bottom: 701.8px;
+            border-radius: 7.2px;
+            border: solid 1.6px #3256a0;
+            color:#3256a0;
+            background-size: 0.8em auto;
+        }
+        .country1:focus{
+            outline: none; 
+        }
+        /* ................................. */
+        /* FIN: Country select               */
+        /* ................................. */
+
+        /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+        /*                               INICIO BODY: Cuerpo de pagina - USA PATRIOT ACT                    */
+        /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+        
+            /* ................................. */
+            /* INICIO : Título pagina            */
+            /* ................................. */
+            .USA-PATRIOT-Act-Disclosure {
+                width: 473px;
+                height: 19px;
+                position: absolute;
+                left: 446px;
+                top: 156px ;
+                right: 447px ;
+                bottom: 593px ;
+                font-family: Poppins;
+                font-size: 21.3px;
+                font-weight: 600;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.1;
+                letter-spacing: normal;
+                text-align: center;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN : Título pagina               */
+            /* ................................. */
+
+            /* ................................. */
+            /* INICIO : Cuerpo text              */
+            /* ................................. */
+            .cuerpotext{
+                width: 473px;
+                height: 252px;
+                position: absolute;
+                left: 446px;
+                top: 239px ;
+                right: 447px ;
+                bottom: 277px ;
+                font-family: Poppins;
+                font-size: 12.8px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: justify;
+                color: #454545;
+            }
+            /* ................................. */
+            /* FIN : Cuerpo text                 */
+            /* ................................. */
+
+           /*  /* ................................. */
+            /* INICIO : Checkbox Switch          */
+            /* ................................. */
+            .switch {
+                position: relative;
+                display: inline-block;
+                width: 60px;
+                height: 34px;
+            }
+              
+            .switch input { 
+                opacity: 0;
+                width: 0;
+                height: 0;
+            }
+              
+            .slider {
+                position: absolute;
+                cursor: pointer;
+                width: 62px;
+                height: 28.3px;
+                top: 510px;
+                left: 447px;
+                background-color: #ccc;
+                -webkit-transition: .4s;
+                transition: .4s;
+            }
+              
+            .slider:before {
+                position: absolute;
+                content: "";
+                height: 26px;
+                width: 26px;
+                left: 4px;
+                bottom:1px;
+                right: 1px;
+                background-color: white;
+                -webkit-transition: .4s;
+                transition: .4s;
+            }
+              
+            input:checked + .slider {
+                background-color:  #294397;
+            }
+              
+            input:focus + .slider {
+                box-shadow: 0 0 1px  #294397;
+            }
+              
+            input:checked + .slider:before {
+                -webkit-transform: translateX(26px);
+                -ms-transform: translateX(26px);
+                transform: translateX(26px);
+            }
+              
+            /* Rounded sliders */
+            .slider.round {
+                border-radius: 34px;
+            }
+              
+            .slider.round:before {
+                border-radius: 50%;
+            }
+            /* ................................. */
+            /* FIN : Checkbox Switch             */
+            /* ................................. */
+              
+            /* ................................. */
+            /* INICIO : Check Terms              */
+            /* ................................. */
+            .check-terms{
+                width: 390px;
+                height: 27px;
+                position: absolute;
+                left: 529px;
+                top: 522px ;
+                right: 447px ;
+                bottom: 219px ;
+                font-family: Poppins;
+                font-size: 12.8px;
+                font-weight: 600;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN : Check Terms                 */
+            /* ................................. */
+
+        /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+        /*                                FIN BODY: Cuerpo de pagina - USA PATRIOT ACT                      */
+        /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+    /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+    /*                                             INICIO FOOTER´S                                          */
+    /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+    
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+        /*                      INICIO FOOTER - 1 -- ( Dimensiones: Height:768px  Width:1366px )                */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+            /* ................................. */
+            /* INICIO: Lineas multicolor         */
+            /* ................................. */
+            .Lineas-de-colores {
+                width: 966px;
+                height: 2px;
+                overflow-y:inherit;
+                position:absolute;
+                left: 200px;
+                right: 200px;
+                top: 668px;
+                bottom: 98px;
+                flex-grow: 0;
+                margin: 0 0 34px;
+            }
+            /* ................................. */
+            /* FIN: Lineas multicolor            */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Politica de privacidad    */
+            /* ................................. */
+            .Privacy-Policy {
+                width: 69.8px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 200px;
+                right: 1096.2px ;
+                top: 707px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Politica de privacidad       */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Terminos de uso           */
+            /* ................................. */
+            .Terms-of-Use {
+                width: 70.5px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 292.9px;
+                right: 1002.6px ;
+                top: 707px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Terminos de uso           */
+            /* ................................. */
+            
+            /* ................................. */
+            /* INICIO: Decla. de accesibilidad   */
+            /* ................................. */
+            .Accessibility-Statement {
+                width: 113px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 386.4px;
+                right: 866.6px ;
+                top: 707px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Decla. de accesibilidad      */
+            /* ................................. */
+    
+    
+            /* ................................. */
+            /* INICIO: Derechos de autor         */
+            /* ................................. */
+            .Derechos-de-autor {
+                width: 177px;
+                height: 9px;
+                flex-grow: 0;
+                position: absolute;
+                left: 602px;
+                right: 587px ;
+                top: 707px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #4f4f4f;
+            }
+            /* ................................. */
+            /* FIN: Derechos de autor            */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Redes sociales            */
+            /* ................................. */
+    
+                /* Inicio: Instagram  */
+                .instagram {
+                    width: 10.9px;
+                    height: 10.4px;
+                    top: 570px;
+                }
+                .instagram:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group {
+                    position: absolute;
+                    width: 15px; 
+                    height: 15px;
+                    left: 1046px ;
+                    top: 707px ;
+                    right: 308.1px ;
+                    bottom: 48.8px;
+                    overflow: visible;
+                }
+                .ellipse-1 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1042px ;
+                    top: 704px;
+                    right: 303.1px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-1:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: Instagram  */
+    
+    
+                /* Inicio: Facebook  */
+                .facebook {
+                    width: 37px; 
+                    height: 37px;
+                    top: 570px;
+                    position: static;
+                }
+                .facebook:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group2 {
+                    position: absolute; 
+                    width: 15px; 
+                    height: 15px;
+                    left:1072px ;
+                    top: 707px ;
+                    right: 284.1px ;
+                    bottom: 48px;
+                    overflow: visible;
+                }
+                .ellipse-2 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1067.9px ;
+                    top: 704px;
+                    right: 277.2px ;
+                    bottom: 44px ;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                } 
+                /* Fin: Facebook     */
+    
+    
+                /* Inicio: Twitter     */
+                .twitter {
+                    width: 37px; 
+                    height: 37px;
+                    position: static;
+                }
+                .twitter:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group3 {
+                    width: 15px; 
+                    height: 15px;
+                    position: absolute; 
+                    left: 1096.8px ;
+                    top: 707px ;
+                    right: 255.7 ;
+                    bottom: 49.1px;
+                    overflow: visible;
+                }
+                .ellipse-3 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1093.1 ;
+                    top: 704px;
+                    right: 252px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-3:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                } 
+                /* Fin: Twitter     */
+    
+                /* Inicio: WhatsApp     */
+                .whatsapp {
+                    width: 37px; 
+                    height: 37px;
+                    top: 575px;
+                    position: static;
+                }
+                .whatsapp:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group4 {
+                    position: absolute;
+                    width: 15px; 
+                    height: 15px; 
+                    left: 1123.4px ;
+                    top: 707px ;
+                    right: 230.7px ;
+                    bottom: 48.8px;
+                    overflow: visible;
+    
+                }
+                .ellipse-4 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1119px;
+                    top: 704px;
+                    right: 226.1px;
+                    bottom: 44px ;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: WhatsApp     */
+    
+    
+                /* Inicio: LinkedIn     */
+                .linkedin {
+                    width: 29px; 
+                    height: 29px;
+                    top: 575px;
+                    position: static;
+                }
+                .linkedin:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group5 {
+                    position: absolute; 
+                    width: 15px; 
+                    height: 15px;
+                    left: 1150.1 ;
+                    top: 707px ;
+                    right: 205px ;
+                    bottom: 49.5px;
+                    overflow: visible;
+                }
+                .ellipse-5 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    right: 200.2px;
+                    left: 1144.9;
+                    top: 704px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-5:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: LinkedIn     */
+    
+            /* ................................. */
+            /* FIN: Redes sociales               */
+            /* ................................. */
+    
+    
+    
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+        /*                      FIN FOOTER - 1 -- ( Dimensiones: Height:768px  Width:1366px )                   */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+
+
+        /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+
+
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+        /*                   INICIO FOOTER - 2 -- ( Dimensiones: Height:904px  Width:1366px )                   */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+            
+            /* ................................. */
+            /* INICIO: Lineas multicolor         */
+            /* ................................. */
+            .Lineas-de-colores-2 {
+                width: 966px;
+                height: 2px;
+                overflow-y:inherit;
+                position:absolute;
+                left: 200px;
+                right: 200px;
+                top: 804px;
+                bottom: 98px;
+                flex-grow: 0;
+                margin: 0 0 34px;
+            }
+            /* ................................. */
+            /* FIN: Lineas multicolor            */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Politica de privacidad    */
+            /* ................................. */
+            .Privacy-Policy-2 {
+                width: 69.8px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 200px;
+                right: 1096.2px ;
+                top: 843px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Politica de privacidad       */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Terminos de uso           */
+            /* ................................. */
+            .Terms-of-Use-2 {
+                width: 70.5px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 292.9px;
+                right: 1002.6px ;
+                top: 843px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Terminos de uso           */
+            /* ................................. */
+            
+            /* ................................. */
+            /* INICIO: Decla. de accesibilidad   */
+            /* ................................. */
+            .Accessibility-Statement-2 {
+                width: 113px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 386.4px;
+                right: 866.6px ;
+                top: 843px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Decla. de accesibilidad      */
+            /* ................................. */
+    
+    
+            /* ................................. */
+            /* INICIO: Derechos de autor         */
+            /* ................................. */
+            .Derechos-de-autor-2 {
+                width: 177px;
+                height: 9px;
+                flex-grow: 0;
+                position: absolute;
+                left: 602px;
+                right: 587px ;
+                top: 843px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #4f4f4f;
+            }
+            /* ................................. */
+            /* FIN: Derechos de autor            */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Redes sociales            */
+            /* ................................. */
+    
+                /* Inicio: Instagram  */
+                .instagram2 {
+                    width: 10.9px;
+                    height: 10.4px;
+                    top: 570px;
+                }
+                .instagram2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group1-2 {
+                    position: absolute;
+                    width: 15px; 
+                    height: 15px;
+                    left: 1046px ;
+                    top: 843px ;
+                    right: 308.1px ;
+                    bottom: 48.8px;
+                    overflow: visible;
+                }
+                .ellipse-1-2 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1042px ;
+                    top: 840px;
+                    right: 303.1px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-1-2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: Instagram  */
+    
+    
+                /* Inicio: Facebook  */
+                .facebook2 {
+                    width: 37px; 
+                    height: 37px;
+                    top: 570px;
+                    position: static;
+                }
+                .facebook2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group2-2 {
+                    position: absolute; 
+                    width: 15px; 
+                    height: 15px;
+                    left:1072px ;
+                    top: 843px ;
+                    right: 284.1px ;
+                    bottom: 48px;
+                    overflow: visible;
+                }
+                .ellipse-2-2 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1067.9px ;
+                    top: 840px;
+                    right: 277.2px ;
+                    bottom: 44px ;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-2-2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                } 
+                /* Fin: Facebook     */
+    
+    
+                /* Inicio: Twitter     */
+                .twitter2 {
+                    width: 37px; 
+                    height: 37px;
+                    position: static;
+                }
+                .twitter2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group3-2 {
+                    width: 15px; 
+                    height: 15px;
+                    position: absolute; 
+                    left: 1096.8px ;
+                    top: 843px ;
+                    right: 255.7 ;
+                    bottom: 49.1px;
+                    overflow: visible;
+                }
+                .ellipse-3-2 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1093.1 ;
+                    top: 840px;
+                    right: 252px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-3-2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                } 
+                /* Fin: Twitter     */
+    
+                /* Inicio: WhatsApp     */
+                .whatsapp2 {
+                    width: 37px; 
+                    height: 37px;
+                    top: 575px;
+                    position: static;
+                }
+                .whatsapp2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group4-2 {
+                    position: absolute;
+                    width: 15px; 
+                    height: 15px; 
+                    left: 1123.4px ;
+                    top: 843px ;
+                    right: 230.7px ;
+                    bottom: 48.8px;
+                    overflow: visible;
+    
+                }
+                .ellipse-4-2 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1119px;
+                    top: 840px;
+                    right: 226.1px;
+                    bottom: 44px ;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-4-2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: WhatsApp     */
+    
+    
+                /* Inicio: LinkedIn     */
+                .linkedin2 {
+                    width: 29px; 
+                    height: 29px;
+                    top: 575px;
+                    position: static;
+                }
+                .linkedin2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group5-2 {
+                    position: absolute; 
+                    width: 15px; 
+                    height: 15px;
+                    left: 1150.1 ;
+                    top: 843px ;
+                    right: 205px ;
+                    bottom: 49.5px;
+                    overflow: visible;
+                }
+                .ellipse-5-2 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    right: 200.2px;
+                    left: 1144.9;
+                    top: 840px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-5-2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: LinkedIn     */
+    
+            /* ................................. */
+            /* FIN: Redes sociales               */
+            /* ................................. */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+        /*                    FIN FOOTER - 2 -- ( Dimensiones: Height:904px  Width:1366px )                     */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+
+
+        /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+
+
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+        /*                   INICIO FOOTER - 3 -- ( Dimensiones: Height:928px  Width:1366px )                   */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+            /* ................................. */
+            /* INICIO: Lineas multicolor         */
+            /* ................................. */
+            .Lineas-de-colores-3 {
+                width: 966px;
+                height: 2px;
+                overflow-y:inherit;
+                position:absolute;
+                left: 200px;
+                right: 200px;
+                top: 828px;
+                bottom: 98px;
+                flex-grow: 0;
+                margin: 0 0 34px;
+            }
+            /* ................................. */
+            /* FIN: Lineas multicolor            */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Politica de privacidad    */
+            /* ................................. */
+            .Privacy-Policy-2 {
+                width: 69.8px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 200px;
+                right: 1096.2px ;
+                top: 843px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Politica de privacidad       */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Terminos de uso           */
+            /* ................................. */
+            .Terms-of-Use-2 {
+                width: 70.5px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 292.9px;
+                right: 1002.6px ;
+                top: 843px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Terminos de uso           */
+            /* ................................. */
+            
+            /* ................................. */
+            /* INICIO: Decla. de accesibilidad   */
+            /* ................................. */
+            .Accessibility-Statement-2 {
+                width: 113px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 386.4px;
+                right: 866.6px ;
+                top: 843px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Decla. de accesibilidad      */
+            /* ................................. */
+    
+    
+            /* ................................. */
+            /* INICIO: Derechos de autor         */
+            /* ................................. */
+            .Derechos-de-autor-2 {
+                width: 177px;
+                height: 9px;
+                flex-grow: 0;
+                position: absolute;
+                left: 602px;
+                right: 587px ;
+                top: 843px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #4f4f4f;
+            }
+            /* ................................. */
+            /* FIN: Derechos de autor            */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Redes sociales            */
+            /* ................................. */
+    
+                /* Inicio: Instagram  */
+                .instagram2 {
+                    width: 10.9px;
+                    height: 10.4px;
+                    top: 570px;
+                }
+                .instagram2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group1-2 {
+                    position: absolute;
+                    width: 15px; 
+                    height: 15px;
+                    left: 1046px ;
+                    top: 843px ;
+                    right: 308.1px ;
+                    bottom: 48.8px;
+                    overflow: visible;
+                }
+                .ellipse-1-2 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1042px ;
+                    top: 840px;
+                    right: 303.1px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-1-2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: Instagram  */
+    
+    
+                /* Inicio: Facebook  */
+                .facebook2 {
+                    width: 37px; 
+                    height: 37px;
+                    top: 570px;
+                    position: static;
+                }
+                .facebook2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group2-2 {
+                    position: absolute; 
+                    width: 15px; 
+                    height: 15px;
+                    left:1072px ;
+                    top: 843px ;
+                    right: 284.1px ;
+                    bottom: 48px;
+                    overflow: visible;
+                }
+                .ellipse-2-2 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1067.9px ;
+                    top: 840px;
+                    right: 277.2px ;
+                    bottom: 44px ;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-2-2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                } 
+                /* Fin: Facebook     */
+    
+    
+                /* Inicio: Twitter     */
+                .twitter2 {
+                    width: 37px; 
+                    height: 37px;
+                    position: static;
+                }
+                .twitter2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group3-2 {
+                    width: 15px; 
+                    height: 15px;
+                    position: absolute; 
+                    left: 1096.8px ;
+                    top: 843px ;
+                    right: 255.7 ;
+                    bottom: 49.1px;
+                    overflow: visible;
+                }
+                .ellipse-3-2 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1093.1 ;
+                    top: 840px;
+                    right: 252px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-3-2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                } 
+                /* Fin: Twitter     */
+    
+                /* Inicio: WhatsApp     */
+                .whatsapp2 {
+                    width: 37px; 
+                    height: 37px;
+                    top: 575px;
+                    position: static;
+                }
+                .whatsapp2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group4-2 {
+                    position: absolute;
+                    width: 15px; 
+                    height: 15px; 
+                    left: 1123.4px ;
+                    top: 843px ;
+                    right: 230.7px ;
+                    bottom: 48.8px;
+                    overflow: visible;
+    
+                }
+                .ellipse-4-2 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1119px;
+                    top: 840px;
+                    right: 226.1px;
+                    bottom: 44px ;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-4-2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: WhatsApp     */
+    
+    
+                /* Inicio: LinkedIn     */
+                .linkedin2 {
+                    width: 29px; 
+                    height: 29px;
+                    top: 575px;
+                    position: static;
+                }
+                .linkedin2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group5-2 {
+                    position: absolute; 
+                    width: 15px; 
+                    height: 15px;
+                    left: 1150.1 ;
+                    top: 843px ;
+                    right: 205px ;
+                    bottom: 49.5px;
+                    overflow: visible;
+                }
+                .ellipse-5-2 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    right: 200.2px;
+                    left: 1144.9;
+                    top: 840px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-5-2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: LinkedIn     */
+    
+            /* ................................. */
+            /* FIN: Redes sociales               */
+            /* ................................. */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+        /*                     FIN FOOTER - 3 -- ( Dimensiones: Height:928px  Width:1366px )                    */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+
+
+        /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+
+
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+        /*                     FIN FOOTER - 0 -- ( Dimensiones: Height:973px  Width:1366px )                    */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+            /* ................................. */
+            /* INICIO: Lineas multicolor         */
+            /* ................................. */
+            .Lineas-de-colores-0 {
+                width: 966px;
+                height: 2px;
+                overflow-y:inherit;
+                position:absolute;
+                left: 200px;
+                right: 200px;
+                top: 873px;
+                bottom: 98px;
+                flex-grow: 0;
+                margin: 0 0 34px;
+            }
+            /* ................................. */
+            /* FIN: Lineas multicolor            */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Politica de privacidad    */
+            /* ................................. */
+            .Privacy-Policy-0 {
+                width: 69.8px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 200px;
+                right: 1096.2px ;
+                top: 912px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Politica de privacidad       */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Terminos de uso           */
+            /* ................................. */
+            .Terms-of-Use-0 {
+                width: 70.5px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 292.9px;
+                right: 1002.6px ;
+                top: 912px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Terminos de uso           */
+            /* ................................. */
+            
+            /* ................................. */
+            /* INICIO: Decla. de accesibilidad   */
+            /* ................................. */
+            .Accessibility-Statement-0 {
+                width: 113px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 386.4px;
+                right: 866.6px ;
+                top: 912px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Decla. de accesibilidad      */
+            /* ................................. */
+    
+    
+            /* ................................. */
+            /* INICIO: Derechos de autor         */
+            /* ................................. */
+            .Derechos-de-autor-0 {
+                width: 177px;
+                height: 9px;
+                flex-grow: 0;
+                position: absolute;
+                left: 602px;
+                right: 587px ;
+                top: 912px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #4f4f4f;
+            }
+            /* ................................. */
+            /* FIN: Derechos de autor            */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Redes sociales            */
+            /* ................................. */
+    
+                /* Inicio: Instagram  */
+                .instagram0 {
+                    width: 10.9px;
+                    height: 10.4px;
+                    top: 570px;
+                }
+                .instagram0:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group1-0 {
+                    position: absolute;
+                    width: 15px; 
+                    height: 15px;
+                    left: 1046px ;
+                    top: 912px ;
+                    right: 308.1px ;
+                    bottom: 48.8px;
+                    overflow: visible;
+                }
+                .ellipse-1-0 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1042px ;
+                    top: 909px;
+                    right: 303.1px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-1-0:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: Instagram  */
+    
+    
+                /* Inicio: Facebook  */
+                .facebook0 {
+                    width: 37px; 
+                    height: 37px;
+                    top: 570px;
+                    position: static;
+                }
+                .facebook0:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group2-0 {
+                    position: absolute; 
+                    width: 15px; 
+                    height: 15px;
+                    left:1072px ;
+                    top: 912px ;
+                    right: 284.1px ;
+                    bottom: 48px;
+                    overflow: visible;
+                }
+                .ellipse-2-0 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1067.9px ;
+                    top: 909px;
+                    right: 277.2px ;
+                    bottom: 44px ;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-2-0:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                } 
+                /* Fin: Facebook     */
+    
+    
+                /* Inicio: Twitter     */
+                .twitter0 {
+                    width: 37px; 
+                    height: 37px;
+                    position: static;
+                }
+                .twitter0:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group3-0 {
+                    width: 15px; 
+                    height: 15px;
+                    position: absolute; 
+                    left: 1096.8px ;
+                    top: 912px ;
+                    right: 255.7 ;
+                    bottom: 49.1px;
+                    overflow: visible;
+                }
+                .ellipse-3-0 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1093.1 ;
+                    top: 909px;
+                    right: 252px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-3-0:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                } 
+                /* Fin: Twitter     */
+    
+                /* Inicio: WhatsApp     */
+                .whatsapp0 {
+                    width: 37px; 
+                    height: 37px;
+                    top: 575px;
+                    position: static;
+                }
+                .whatsapp0:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group4-0 {
+                    position: absolute;
+                    width: 15px; 
+                    height: 15px; 
+                    left: 1123.4px ;
+                    top: 912px ;
+                    right: 230.7px ;
+                    bottom: 48.8px;
+                    overflow: visible;
+    
+                }
+                .ellipse-4-0 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1119px;
+                    top: 909px;
+                    right: 226.1px;
+                    bottom: 44px ;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-4-0:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: WhatsApp     */
+    
+    
+                /* Inicio: LinkedIn     */
+                .linkedin0 {
+                    width: 29px; 
+                    height: 29px;
+                    top: 575px;
+                    position: static;
+                }
+                .linkedin0:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group5-0 {
+                    position: absolute; 
+                    width: 15px; 
+                    height: 15px;
+                    left: 1150.1 ;
+                    top: 912px ;
+                    right: 205px ;
+                    bottom: 49.5px;
+                    overflow: visible;
+                }
+                .ellipse-5-0 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    right: 200.2px;
+                    left: 1144.9;
+                    top: 909px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-5-0:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: LinkedIn     */
+    
+            /* ................................. */
+            /* FIN: Redes sociales               */
+            /* ................................. */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+        /*                     FIN FOOTER - 3 -- ( Dimensiones: Height:973px  Width:1366px )                    */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+
+
+        /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+
+
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+        /*                   INICIO FOOTER - 4 -- ( Dimensiones: Height:1005px  Width:1366px )                  */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+            
+            /* ................................. */
+            /* INICIO: Lineas multicolor         */
+            /* ................................. */
+            .Lineas-de-colores-4 {
+                width: 966px;
+                height: 2px;
+                overflow-y:inherit;
+                position:absolute;
+                left: 200px;
+                right: 200px;
+                top: 905px;
+                bottom: 98px;
+                flex-grow: 0;
+                margin: 0 0 34px;
+            }
+            /* ................................. */
+            /* FIN: Lineas multicolor            */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Politica de privacidad    */
+            /* ................................. */
+            .Privacy-Policy-4 {
+                width: 69.8px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 200px;
+                right: 1096.2px ;
+                top: 944px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Politica de privacidad       */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Terminos de uso           */
+            /* ................................. */
+            .Terms-of-Use-4 {
+                width: 70.5px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 292.9px;
+                right: 1002.6px ;
+                top: 944px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Terminos de uso           */
+            /* ................................. */
+            
+            /* ................................. */
+            /* INICIO: Decla. de accesibilidad   */
+            /* ................................. */
+            .Accessibility-Statement-4 {
+                width: 113px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 386.4px;
+                right: 866.6px ;
+                top: 944px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Decla. de accesibilidad      */
+            /* ................................. */
+    
+    
+            /* ................................. */
+            /* INICIO: Derechos de autor         */
+            /* ................................. */
+            .Derechos-de-autor-4 {
+                width: 177px;
+                height: 9px;
+                flex-grow: 0;
+                position: absolute;
+                left: 602px;
+                right: 587px ;
+                top: 944px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #4f4f4f;
+            }
+            /* ................................. */
+            /* FIN: Derechos de autor            */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Redes sociales            */
+            /* ................................. */
+    
+                /* Inicio: Instagram  */
+                .instagram4 {
+                    width: 10.9px;
+                    height: 10.4px;
+                    top: 570px;
+                }
+                .instagram4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group1-4 {
+                    position: absolute;
+                    width: 15px; 
+                    height: 15px;
+                    left: 1046px ;
+                    top: 944px ;
+                    right: 308.1px ;
+                    bottom: 48.8px;
+                    overflow: visible;
+                }
+                .ellipse-1-4 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1042px ;
+                    top: 941px;
+                    right: 303.1px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-1-4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: Instagram  */
+    
+    
+                /* Inicio: Facebook  */
+                .facebook4 {
+                    width: 37px; 
+                    height: 37px;
+                    top: 570px;
+                    position: static;
+                }
+                .facebook4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group2-4 {
+                    position: absolute; 
+                    width: 15px; 
+                    height: 15px;
+                    left:1072px ;
+                    top: 944px ;
+                    right: 284.1px ;
+                    bottom: 48px;
+                    overflow: visible;
+                }
+                .ellipse-2-4 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1067.9px ;
+                    top: 941px;
+                    right: 277.2px ;
+                    bottom: 44px ;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-2-4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                } 
+                /* Fin: Facebook     */
+    
+    
+                /* Inicio: Twitter     */
+                .twitter4 {
+                    width: 37px; 
+                    height: 37px;
+                    position: static;
+                }
+                .twitter4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group3-4 {
+                    width: 15px; 
+                    height: 15px;
+                    position: absolute; 
+                    left: 1096.8px ;
+                    top: 944px ;
+                    right: 255.7 ;
+                    bottom: 49.1px;
+                    overflow: visible;
+                }
+                .ellipse-3-4 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1093.1 ;
+                    top: 941px;
+                    right: 252px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-3-4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                } 
+                /* Fin: Twitter     */
+    
+                /* Inicio: WhatsApp     */
+                .whatsapp4 {
+                    width: 37px; 
+                    height: 37px;
+                    top: 575px;
+                    position: static;
+                }
+                .whatsapp4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group4-4 {
+                    position: absolute;
+                    width: 15px; 
+                    height: 15px; 
+                    left: 1123.4px ;
+                    top: 944px ;
+                    right: 230.7px ;
+                    bottom: 48.8px;
+                    overflow: visible;
+    
+                }
+                .ellipse-4-4 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1119px;
+                    top: 941px;
+                    right: 226.1px;
+                    bottom: 44px ;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-4-2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: WhatsApp     */
+    
+    
+                /* Inicio: LinkedIn     */
+                .linkedin4 {
+                    width: 29px; 
+                    height: 29px;
+                    top: 575px;
+                    position: static;
+                }
+                .linkedin4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group5-4 {
+                    position: absolute; 
+                    width: 15px; 
+                    height: 15px;
+                    left: 1150.1 ;
+                    top: 944px ;
+                    right: 205px ;
+                    bottom: 49.5px;
+                    overflow: visible;
+                }
+                .ellipse-5-4 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    right: 200.2px;
+                    left: 1144.9;
+                    top: 941px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-5-4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: LinkedIn     */
+    
+            /* ................................. */
+            /* FIN: Redes sociales               */
+            /* ................................. */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+        /*                     FIN FOOTER - 4 -- ( Dimensiones: Height:1005px  Width:1366px )                   */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+
+
+        /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+
+
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+        /*                   INICIO FOOTER - 5 -- ( Dimensiones: Height:1164px  Width:1366px )                  */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+                    
+            /* ................................. */
+            /* INICIO: Lineas multicolor         */
+            /* ................................. */
+            .Lineas-de-colores-5 {
+                width: 966px;
+                height: 2px;
+                overflow-y:inherit;
+                position:absolute;
+                left: 200px;
+                right: 200px;
+                top: 1064px;
+                bottom: 98px;
+                flex-grow: 0;
+                margin: 0 0 34px;
+            }
+            /* ................................. */
+            /* FIN: Lineas multicolor            */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Politica de privacidad    */
+            /* ................................. */
+            .Privacy-Policy-5 {
+                width: 69.8px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 200px;
+                right: 1096.2px ;
+                top: 1103px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Politica de privacidad       */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Terminos de uso           */
+            /* ................................. */
+            .Terms-of-Use-5 {
+                width: 70.5px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 292.9px;
+                right: 1002.6px ;
+                top: 1103px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Terminos de uso           */
+            /* ................................. */
+            
+            /* ................................. */
+            /* INICIO: Decla. de accesibilidad   */
+            /* ................................. */
+            .Accessibility-Statement-5 {
+                width: 113px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 386.4px;
+                right: 866.6px ;
+                top: 1103px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Decla. de accesibilidad      */
+            /* ................................. */
+    
+    
+            /* ................................. */
+            /* INICIO: Derechos de autor         */
+            /* ................................. */
+            .Derechos-de-autor-5 {
+                width: 177px;
+                height: 9px;
+                flex-grow: 0;
+                position: absolute;
+                left: 602px;
+                right: 587px ;
+                top: 944px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #4f4f4f;
+            }
+            /* ................................. */
+            /* FIN: Derechos de autor            */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Redes sociales            */
+            /* ................................. */
+    
+                /* Inicio: Instagram  */
+                .instagram4 {
+                    width: 10.9px;
+                    height: 10.4px;
+                    top: 570px;
+                }
+                .instagram4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group1-4 {
+                    position: absolute;
+                    width: 15px; 
+                    height: 15px;
+                    left: 1046px ;
+                    top: 944px ;
+                    right: 308.1px ;
+                    bottom: 48.8px;
+                    overflow: visible;
+                }
+                .ellipse-1-4 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1042px ;
+                    top: 941px;
+                    right: 303.1px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-1-4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: Instagram  */
+    
+    
+                /* Inicio: Facebook  */
+                .facebook4 {
+                    width: 37px; 
+                    height: 37px;
+                    top: 570px;
+                    position: static;
+                }
+                .facebook4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group2-4 {
+                    position: absolute; 
+                    width: 15px; 
+                    height: 15px;
+                    left:1072px ;
+                    top: 944px ;
+                    right: 284.1px ;
+                    bottom: 48px;
+                    overflow: visible;
+                }
+                .ellipse-2-4 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1067.9px ;
+                    top: 941px;
+                    right: 277.2px ;
+                    bottom: 44px ;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-2-4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                } 
+                /* Fin: Facebook     */
+    
+    
+                /* Inicio: Twitter     */
+                .twitter4 {
+                    width: 37px; 
+                    height: 37px;
+                    position: static;
+                }
+                .twitter4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group3-4 {
+                    width: 15px; 
+                    height: 15px;
+                    position: absolute; 
+                    left: 1096.8px ;
+                    top: 944px ;
+                    right: 255.7 ;
+                    bottom: 49.1px;
+                    overflow: visible;
+                }
+                .ellipse-3-4 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1093.1 ;
+                    top: 941px;
+                    right: 252px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-3-4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                } 
+                /* Fin: Twitter     */
+    
+                /* Inicio: WhatsApp     */
+                .whatsapp4 {
+                    width: 37px; 
+                    height: 37px;
+                    top: 575px;
+                    position: static;
+                }
+                .whatsapp4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group4-4 {
+                    position: absolute;
+                    width: 15px; 
+                    height: 15px; 
+                    left: 1123.4px ;
+                    top: 944px ;
+                    right: 230.7px ;
+                    bottom: 48.8px;
+                    overflow: visible;
+    
+                }
+                .ellipse-4-4 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1119px;
+                    top: 941px;
+                    right: 226.1px;
+                    bottom: 44px ;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-4-2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: WhatsApp     */
+    
+    
+                /* Inicio: LinkedIn     */
+                .linkedin4 {
+                    width: 29px; 
+                    height: 29px;
+                    top: 575px;
+                    position: static;
+                }
+                .linkedin4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group5-4 {
+                    position: absolute; 
+                    width: 15px; 
+                    height: 15px;
+                    left: 1150.1 ;
+                    top: 944px ;
+                    right: 205px ;
+                    bottom: 49.5px;
+                    overflow: visible;
+                }
+                .ellipse-5-4 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    right: 200.2px;
+                    left: 1144.9;
+                    top: 941px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-5-4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: LinkedIn     */
+    
+            /* ................................. */
+            /* FIN: Redes sociales               */
+            /* ................................. */
+
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+        /*                     FIN FOOTER - 5 -- ( Dimensiones: Height:1164px  Width:1366px )                   */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+
+
+        /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+
+
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+        /*                   INICIO FOOTER - 6 -- ( Dimensiones: Height:2572px  Width:1366px )                  */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+                    
+            /* ................................. */
+            /* INICIO: Lineas multicolor         */
+            /* ................................. */
+            .Lineas-de-colores-6 {
+                width: 966px;
+                height: 2px;
+                overflow-y:inherit;
+                position:absolute;
+                left: 200px;
+                right: 200px;
+                top: 2495px;
+                bottom: 98px;
+                flex-grow: 0;
+                margin: 0 0 34px;
+            }
+            /* ................................. */
+            /* FIN: Lineas multicolor            */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Politica de privacidad    */
+            /* ................................. */
+            .Privacy-Policy-6 {
+                width: 69.8px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 200px;
+                right: 1096.2px ;
+                top: 2535px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Politica de privacidad       */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Terminos de uso           */
+            /* ................................. */
+            .Terms-of-Use-6 {
+                width: 70.5px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 292.9px;
+                right: 1002.6px ;
+                top: 2535px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Terminos de uso           */
+            /* ................................. */
+            
+            /* ................................. */
+            /* INICIO: Decla. de accesibilidad   */
+            /* ................................. */
+            .Accessibility-Statement-6 {
+                width: 113px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 386.4px;
+                right: 866.6px ;
+                top: 2535px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Decla. de accesibilidad      */
+            /* ................................. */
+    
+    
+            /* ................................. */
+            /* INICIO: Derechos de autor         */
+            /* ................................. */
+            .Derechos-de-autor-6 {
+                width: 177px;
+                height: 9px;
+                flex-grow: 0;
+                position: absolute;
+                left: 602px;
+                right: 587px ;
+                top: 2535px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #4f4f4f;
+            }
+            /* ................................. */
+            /* FIN: Derechos de autor            */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Redes sociales            */
+            /* ................................. */
+    
+                /* Inicio: Instagram  */
+                .instagram4 {
+                    width: 10.9px;
+                    height: 10.4px;
+                    top: 570px;
+                }
+                .instagram4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group1-4 {
+                    position: absolute;
+                    width: 15px; 
+                    height: 15px;
+                    left: 1046px ;
+                    top: 944px ;
+                    right: 308.1px ;
+                    bottom: 48.8px;
+                    overflow: visible;
+                }
+                .ellipse-1-4 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1042px ;
+                    top: 941px;
+                    right: 303.1px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-1-4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: Instagram  */
+    
+    
+                /* Inicio: Facebook  */
+                .facebook4 {
+                    width: 37px; 
+                    height: 37px;
+                    top: 570px;
+                    position: static;
+                }
+                .facebook4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group2-4 {
+                    position: absolute; 
+                    width: 15px; 
+                    height: 15px;
+                    left:1072px ;
+                    top: 944px ;
+                    right: 284.1px ;
+                    bottom: 48px;
+                    overflow: visible;
+                }
+                .ellipse-2-4 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1067.9px ;
+                    top: 941px;
+                    right: 277.2px ;
+                    bottom: 44px ;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-2-4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                } 
+                /* Fin: Facebook     */
+    
+    
+                /* Inicio: Twitter     */
+                .twitter4 {
+                    width: 37px; 
+                    height: 37px;
+                    position: static;
+                }
+                .twitter4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group3-4 {
+                    width: 15px; 
+                    height: 15px;
+                    position: absolute; 
+                    left: 1096.8px ;
+                    top: 944px ;
+                    right: 255.7 ;
+                    bottom: 49.1px;
+                    overflow: visible;
+                }
+                .ellipse-3-4 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1093.1 ;
+                    top: 941px;
+                    right: 252px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-3-4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                } 
+                /* Fin: Twitter     */
+    
+                /* Inicio: WhatsApp     */
+                .whatsapp4 {
+                    width: 37px; 
+                    height: 37px;
+                    top: 575px;
+                    position: static;
+                }
+                .whatsapp4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group4-4 {
+                    position: absolute;
+                    width: 15px; 
+                    height: 15px; 
+                    left: 1123.4px ;
+                    top: 944px ;
+                    right: 230.7px ;
+                    bottom: 48.8px;
+                    overflow: visible;
+    
+                }
+                .ellipse-4-4 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1119px;
+                    top: 941px;
+                    right: 226.1px;
+                    bottom: 44px ;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-4-2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: WhatsApp     */
+    
+    
+                /* Inicio: LinkedIn     */
+                .linkedin4 {
+                    width: 29px; 
+                    height: 29px;
+                    top: 575px;
+                    position: static;
+                }
+                .linkedin4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group5-4 {
+                    position: absolute; 
+                    width: 15px; 
+                    height: 15px;
+                    left: 1150.1 ;
+                    top: 944px ;
+                    right: 205px ;
+                    bottom: 49.5px;
+                    overflow: visible;
+                }
+                .ellipse-5-4 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    right: 200.2px;
+                    left: 1144.9;
+                    top: 941px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-5-4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: LinkedIn     */
+    
+            /* ................................. */
+            /* FIN: Redes sociales               */
+            /* ................................. */
+
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+        /*                     FIN FOOTER - 5 -- ( Dimensiones: Height:1164px  Width:1366px )                   */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+
+    /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+    /*                                                FIN FOOTER´S                                          */
+    /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+            /* ................................. */
+            /* INICIO : Button back              */
+            /* ................................. */
+
+            .button-back {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 10px;
+                position: absolute;
+                width: 125px;
+                height: 33px;
+                left: 546px;
+                top: 608px ;
+                right: 695px ;
+                bottom: 127px ;
+                color:#fff;
+                background-color: #213F8F;
+                border:none;
+                border-radius: 10px;
+            }
+            .button-back:hover{
+                color:#fff;
+                background-color: #BBBBBB;
+            }
+
+            /* ................................. */
+            /* FIN : Button back                 */
+            /* ................................. */
+       /* ................................. */
+            /* INICIO : Button continue          */
+            /* ................................. */
+            .button-continue1 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 10px;
+                position: absolute;
+                width: 125px;
+                height: 33px;
+                left: 694.7px;
+                top: 608px ;
+                right: 546.3px ;
+                bottom: 127px ;
+                color:#fff;
+                background-color: #213F8F;
+                border:none;
+                border-radius: 10px;
+            }
+            .button-continue1:hover{
+                color:#fff;
+                background-color: #BBBBBB;
+            }
+
+                /* ............................................ */
+                /* INICIO : Checkbutton - Yes                   */
+                /* ............................................ */
+                .input14[type="radio"]{
+                    display: none;
+                  }
+                  .input14[type="radio"] + label span {
+                    display: inline-block;
+                    width: 10px;
+                    height: 10px;
+                    background: transparent;
+                    vertical-align: middle;
+                    border: 2px solid  #294397;
+                    border-radius: 50%;
+                    padding: 2px;
+                    margin:0 5px;
+                  }
+                  .input14[type="radio"]:checked + label span {
+                    width: 10px;
+                    height: 10px;
+                    background:  #294397;
+                    background-clip: content-box;
+                  } 
+                .Yes1 {
+                    position: absolute;
+                    left: 464px;
+                    right: 848.7px;
+                    top: 762.8px;
+                    bottom: 231.5px;
+                    width: 52.9px;
+                    height: 10.6px;
+                    flex-grow: 0;
+                    font-family: Poppins;
+                    font-size: 12.8px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: #294397;
+                }
+                /* ............................................ */
+                /* FIN : Checkbutton - Yes                      */
+                /* ............................................ */
+
+                /* ............................................ */
+                /* INICIO : Checkbutton - No                    */
+                /* ............................................ */
+
+                .input15[type="radio"]{
+                    display: none;
+                  }
+                  .input15[type="radio"] + label span {
+                    display: inline-block;
+                    width: 10px;
+                    height: 10px;
+                    background: transparent;
+                    vertical-align: middle;
+                    border: 2px solid  #294397;
+                    border-radius: 50%;
+                    padding: 2px;
+                    margin:0 5px;
+                  }
+                  .input15[type="radio"]:checked + label span {
+                    width: 10px;
+                    height: 10px;
+                    background:  #294397;
+                    background-clip: content-box;
+                  }  
+
+                  .input15[type="radio"]{
+                    display: none;
+                  }
+                  .input15[type="radio"] + label span {
+                    display: inline-block;
+                    width: 10px;
+                    height: 10px;
+                    background: transparent;
+                    vertical-align: middle;
+                    border: 2px solid  #294397;
+                    border-radius: 50%;
+                    padding: 2px;
+                    margin:0 5px;
+                  }
+                  .input15[type="radio"]:checked + label span {
+                    width: 10px;
+                    height: 10px;
+                    background:  #294397;
+                    background-clip: content-box;
+                  }  
+                .No1 {
+                    position: absolute;
+                    left: 558.7;
+                    right: 755px;
+                    top: 762.8px;
+                    bottom: 231.5px;
+                    width: 52.9px;
+                    height: 10.6px;
+                    flex-grow: 0;
+                    margin: 2.8px 0 3.5px 16.9px;
+                    font-family: Poppins;
+                    font-size: 12.8px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: #294397;
+                }
+                /* ............................................ */
+                /* FIN : Checkbutton - No                       */
+                /* ............................................ */
+    

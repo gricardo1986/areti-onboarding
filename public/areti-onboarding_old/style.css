@@ -1,0 +1,1323 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+/* .......................................................................................................... */
+/*                                               Header                                                       */
+/* .......................................................................................................... */
+
+
+/* INICIO: Bandera USA */
+.flagusa {
+  width: 20px; 
+  height: 20px;
+  background-image:url(images/banderas/usa.png);
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:40px 40px;
+  text-indent:-1000px;
+  min-width:50px;
+}
+/* FIN: Bandera USA */
+
+/* INICIO: Bandera PORTUGAL */
+.flagespana {
+  width: 20px; 
+  height: 20px;
+  background-image:url(images/banderas/espana.png);
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:40px 40px;
+  text-indent:-1000px;
+  min-width:50px;
+}
+/* FIN: Bandera PORTUGAL */
+
+/* INICIO: selección de bandera o país */
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Poppins';
+}
+
+body{
+    color:  #294397;
+}
+
+.wrapper{
+  position: absolute;
+  left: 1220px;
+  top: 55px;
+  transform: translate(-50%,-50%);
+  border-radius: 10px;
+  width: 147px; 
+  height: 41px;
+  
+}
+
+.select_wrap{
+  width: 145px;
+  height: 41px;
+  margin: 10px auto;
+  position: relative;
+  user-select: none;
+  border-radius: 10px;
+  border-color:  #294397;
+  border: solid #3256a0; 
+  border-left:10px solid #213F8F;
+  border-bottom:10px solid #213F8F;
+  border-width: 1.5px;
+  
+}
+
+.select_wrap .default_option{
+  background: transparent;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.select_wrap .default_option li{
+    padding: 7px 5px;
+}
+
+.select_wrap .default_option:before{
+    content: "";
+    position: absolute;
+    top: 13px;
+    right: 18px;
+    width: 6px;
+    height: 6px;
+    border: 2px solid;
+    border-color:  transparent transparent #294397  #294397;
+    transform: rotate(-45deg);
+    
+}
+
+.select_wrap .select_ul{
+  position: absolute;
+  top: 53px;
+  right: 18px;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  display: none;
+  
+}
+
+.select_wrap .select_ul li{
+  padding: 5px 5px;
+  cursor: pointer;
+  left: 1140px;
+  top: 65px;
+}
+
+.select_wrap .select_ul li:first-child:hover{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.select_wrap .select_ul li:last-child:hover{
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.select_wrap .select_ul li:hover{
+  background: #fff4dd;
+}
+
+.select_wrap .option{
+  display: flex;
+  align-items: center;
+}
+
+.select_wrap .option .icon{
+  background: url('food_items.png') no-repeat 0 0;
+	width: 32px;
+	height: 32px;
+  margin-right: 15px;
+}
+
+.select_wrap .option.eng .icon{
+  background-position: 0 0;
+}
+
+.select_wrap .option.por .icon{
+  background-position:  0 -35px;
+}
+
+.select_wrap.active .select_ul{
+  display: block;
+}
+
+.select_wrap.active .default_option:before{
+  top: 25px;
+  transform: rotate(-225deg);
+}
+
+/* INICIO: selección de bandera o país */
+
+/* ********************************************************************************************************** */
+/*                                   INICIO HEADER: PAIS BLOQUEADO                                            */
+/* ********************************************************************************************************** */
+
+/* INICIO: Logo */
+.logo_header {
+  width: 227px; 
+  height: 79px;
+  position: absolute; 
+  left: 50px;
+  top: 26px;
+  background-image:url(images/logo/logo_header.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+/* FIN: Logo */
+
+/* ********************************************************************************************************** */
+/*                                   FIN HEADER: PAIS BLOQUEADO                                               */
+/* ********************************************************************************************************** */
+
+/* ********************************************************************************************************** */
+/*                                        INICIO HEADER: HOME                                                 */
+/* ********************************************************************************************************** */
+
+/* INICIO: Logo */
+.logo_header2 {
+  width: 227px; 
+  height: 139px;
+  position: absolute; 
+  left: 0px;
+  top: -15px;
+  background-image:url(images/logo/logo_header2.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+/* FIN: Logo */
+
+/* ********************************************************************************************************** */
+/*                                        INICIO HEADER: HOME                                                 */
+/* ********************************************************************************************************** */
+
+
+/* .......................................................................................................... */
+/*                                               Body                                                         */
+/* .......................................................................................................... */
+
+/* ********************************************************************************************************** */
+/*                                        INICIO CUERPO: HOME                                                 */
+/* ********************************************************************************************************** */
+
+/* Inicio: Barra antes de título*/
+hr {
+  left: 50px;
+  top: 155px;
+  position: absolute; 
+  height: 1px;
+  width:75px;
+  background-color: #294397;
+}
+/* Fin : Barra antes de título*/
+
+/* Inicio: Text Onboarding Aretibank*/
+.leyenda-de-terminos-span8 {
+  position: absolute; 
+  left: 150px;
+  top: 150px;
+  color: #454545;
+  font: 400 13px/100% 'Poppins';
+  color: #294397;
+}
+/* Fin : Text Onboarding Aretibank*/
+
+/* Inicio: Titulos */
+.titulo2 {
+  color: #294397;
+  text-align: left;
+  font: 400 40px/100% 'undefined';
+  position: absolute; 
+  left: 50px;
+  top: 175px;
+  width: 739px; 
+  height: 184px;
+}
+.titulo-span2 {
+  color: #294397;
+  font: 400 50px/100% 'Poppins';
+}
+
+.titulo-span22 {
+  color: #294397;
+  font: 700 50px/100% 'Poppins';
+}
+/* Fin: Titulos */
+
+/* Inicio: Texto de cuerpo */
+.cuerpo-texto {
+  text-align: left;
+  font: 100 15.5px/100% 'Poppins';
+  position: absolute; 
+  color: #454545;
+  left: 50px;
+  top: 345px;
+  width: 614px; 
+  height: 66px;
+}
+/* Fin: Texto de cuerpo */
+
+/* Inicio: Botón inico de aplicación */
+.boton-start-aplication {
+  width: 485px; 
+  height: 61px;
+  position:static;
+}
+.rectangle-4 {
+  background: #294397;
+  border-radius: 10px;
+  width: 330px; 
+  height: 50px;
+  position: absolute; 
+  left: 120px;
+  top: 400px;
+  float: left;
+}
+
+.rectangle-4:hover {
+  background-color:  #5678e9;
+  color: white;
+}
+
+.start-application {
+  color: #ffffff;
+  text-align: center;
+  font: 600 15px/100% 'Poppins';
+  position: absolute; 
+  left: 195px;
+  top: 415px;
+  width: 168px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+/* Fin: Botón inico de aplicación */
+
+/* Inicio: Terminos y condición de creación de cuenta */
+.leyenda-de-terminos {
+  text-align: center;
+  font: 400 12.94px/100% 'Poppins';
+  position: absolute; 
+  left: 50px;
+  top: 477px;
+  width: 485px; 
+  height: 53px;
+}
+
+.leyenda-de-terminos-span {
+  color: #454545;
+  font: 400 10px/100% 'Poppins';
+}
+
+.leyenda-de-terminos-span2 {
+  color: #4286f4;
+  font: 400 10px/100% 'Poppins';
+  text-decoration: underline;
+}
+
+.leyenda-de-terminos-span3 {
+  color: #454545;
+  font: 400 10px/100% 'Poppins';
+}
+
+.leyenda-de-terminos-span4 {
+  color: #4286f4;
+  font: 400 10px/100% 'Poppins';
+  text-decoration: underline;
+}
+
+.leyenda-de-terminos-span5 {
+  color: #454545;
+  font: 400 10px/100% 'Poppins';
+}
+
+.leyenda-de-terminos-span6 {
+  color: #4286f4;
+  font: 400 10px/100% 'Poppins';
+  text-decoration: underline;
+}
+
+.leyenda-de-terminos-span7 {
+  color: #454545;
+  font: 400 10px/100% 'Poppins';
+}
+/* Fin: Terminos y condición de creación de cuenta */
+
+/* Inicio: Imagen */
+.leaves-download-png-image-1 {
+  background-image:url(images/inicio/home_img_phone.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+  width: 692.58px; 
+  height: 606.17px;
+  position: absolute; 
+  left: 1290px;
+  top: 7px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(-1, 1);
+}
+/* Fin: Imagen */
+
+/* ********************************************************************************************************** */
+/*                                          FIN CUERPO: HOME                                                  */
+/* ********************************************************************************************************** */
+
+
+
+/* ********************************************************************************************************** */
+/*                                   INICIO CUERPO: SELECCIÓN DE CUENTA                                       */
+/* ********************************************************************************************************** */
+
+/* INICIO: Títulos */
+.thank-you-for-choosing-areti-bank-please-select-the-account-you-would-like-to-apply-for- {
+  color: #294397;
+  text-align: center;
+  font: 400 19px/100% 'undefined';
+  position: absolute; 
+  left: 221px;
+  top: 100px;
+  width: 877px;
+  height: 64px;
+}
+.thank-you-for-choosing-areti-bank-please-select-the-account-you-would-like-to-apply-for--span {
+  color: #294397;
+  font: 700 20px/100% 'Poppins';
+}
+.thank-you-for-choosing-areti-bank-please-select-the-account-you-would-like-to-apply-for--span2 {
+  color: #294397;
+  font: 600 20px/100% 'Poppins';
+}
+/* FIN: Títulos */
+
+
+/* INICIO: SELECCIÓN DE CUENTAS */
+
+/* INICIO: VIRTUE-CHECKING-ACCOUNT*/
+
+/* Inicio: dimenciones de grupo */
+.group-9401 {
+  width: 240px; 
+  height: 341px;
+  position: static;
+}
+/* Fin: dimenciones de grupo */
+
+/* Inicio: Rectangulo */
+.rectangle-512 {
+  background: #ffffff;
+  border-radius: 10px;
+  border: solid #bbbbbb; 
+  border-width: 1px;
+  width: 240px; 
+  height: 341px;
+  position: absolute; 
+  left: 122px;
+  top: 194px;
+}
+
+/* Fin: Rectangulo */
+
+/* Inicio: título */
+.virtue-checking-account {
+  color: #fff;
+  text-align: left;
+  font: 600 23px/100% 'Poppins';
+  position: absolute; 
+  left: 132px;
+  top: 274px;
+  width: 267px; 
+  height: 57px;
+}
+
+/* Fin: título */
+
+/* Inicio: Subtitulo */
+.your-action-for-a-better-world-starts-here {
+  color: #fff;
+  text-align: left;
+  font: 600 17.96px/100% 'Poppins';
+  position: absolute; 
+  left: 22px;
+  top: 154px;
+  width: 223px; 
+  height: 44px;
+}
+/* Fin: Subtitulo */
+
+/* Inicio: Descripción */
+.a-checking-account-design-with-conscience-on-the-banking-features-people-need-today-but-built-in-values-for-those-who-care-about-the-environment--people--and-the-society- {
+  color: #454545;
+  text-align: left;
+  font: 400 14px/100% 'Poppins';
+  position: absolute; 
+  left: 132px;
+  top: 424px;
+  width: 227px; 
+  height: 142px;
+}
+/* Fin: Descripción */
+
+/* Inicio: Icono */
+.vector13 {
+  position: absolute; 
+  left: 12px;
+  top: 8px;
+  overflow: visible;
+}
+/* Fin: Icono */
+
+/* FIN: VIRTUE-CHECKING-ACCOUNT*/
+
+
+
+/* INICIO: VIRTUE-SAVING-ACCOUNT */
+
+/* Inicio: dimenciones de grupo */
+.group-46 {
+  width: 240px; 
+  height: 341px;
+  position: static;
+}
+/* Fin: dimenciones de grupo */
+
+/* Inicio: Rectangulo */
+.rectangle-51 {
+  background: #ffffff;
+  border-radius: 10px;
+  border: solid #bbbbbb; 
+  border-width: 1px;
+  width: 240px; 
+  height: 341px;
+  position: absolute; 
+  left: 393px;
+  top: 194px;
+}
+/* Fin: Rectangulo */
+
+/* Inicio: título */
+.virtue-saving-account {
+  color: #3256a0;
+  text-align: left;
+  font: 600 23px/100% 'Poppins';
+  position: absolute;
+  left: 403px;
+  top: 274px;
+  width: 267px; 
+  height: 57px;
+}
+/* Fin: título */
+
+/* Inicio: Subtitulo */
+.save-according-your-values {
+  color: #454545;
+  text-align: left;
+  font: 600 17.96px/100% 'Poppins';
+  position: absolute; 
+  left: 403px;
+  top: 354px;
+  width: 197px; 
+  height: 44px;
+}
+/* Fin: Subtitulo */
+
+/* Inicio: Descripción */
+.our-efficient-approach-to-banking-means-you-can-enjoy-the-immediate-access-to-your-money-anywhere--anytime-while-your-money-is-making-the-change-for-good- {
+  color: #454545;
+  text-align: left;
+  font: 400 14px/100% 'Poppins';
+  position: absolute; 
+  left: 403px;
+  top: 424px;
+  width: 227px; 
+  height: 142px;
+}
+/* Fin: Descripción */
+
+/* Inicio: Icono */
+.vector12 {
+  position: absolute; 
+  left: 12px;
+  top: 8px;
+  overflow: visible;
+}
+/* Fin: Icono */
+
+/* FIN: VIRTUE-SAVING-ACCOUNT */
+
+
+
+/* INICIO: ZUSTENNIALS-SAVING-ACCOUNT */
+
+/* Inicio: dimenciones de grupo */
+.group-47 {
+  width: 240px; 
+  height: 341px;
+  position: static;
+}
+/* Fin: dimenciones de grupo */
+
+/* Inicio: Rectangulo */
+.rectangle-513 {
+  background: #ffffff;
+  border-radius: 10px;
+  border: solid #bbbbbb; 
+  border-width: 1px;
+  width: 240px; 
+  height: 341px;
+  position: absolute; 
+  left: 666px;
+  top: 194px;
+}
+/* Fin: Rectangulo */
+
+/* Inicio: título */
+.zustennials-saving-account {
+  color: #3256a0;
+  text-align: left;
+  font: 600 23px/100% 'Poppins';
+  position: absolute; 
+  left: 675px;
+  top: 274px;
+  width: 271px; 
+  height: 57px;
+}
+/* Fin: título */
+
+/* Inicio: Subtitulo */
+.let-s-build-a-better-tomorrow--for-the-generations-to-come {
+  color: #454545;
+  text-align: left;
+  font: 600 17.96px/100% 'Poppins';
+  position: absolute; 
+  left: 675px;
+  top: 354px;
+  width: 197px; 
+  height: 44px;
+}
+/* Fin: Subtitulo */
+
+/* Inicio: Descripción */
+.the-only-accounts-designed-to-the-generation-to-come--the-sustennials--let-s-help-the-future-generation-to-become-part-of-the-solution-for-problems-the-planet-is-facing-today- {
+  color: #454545;
+  text-align: left;
+  font: 400 14px/100% 'Poppins';
+  position: absolute; 
+  left: 675px;
+  top: 424px;
+  width: 227px; 
+  height: 142px;
+}
+/* Fin: Descripción */
+
+/* Inicio: Icono */
+.vector14 {
+  position: absolute; 
+  left: 12px;
+  top: 8px;
+  overflow: visible;
+}
+/* Fin: Icono */
+
+/* FIN: ZUSTENNIALS-SAVING-ACCOUNT */
+
+
+
+/* INICIO: BUSINESS CHECKING ACCOUNT */
+
+/* Inicio: dimenciones de grupo */
+.group-48 {
+  width: 340px; 
+  height: 441px;
+  position: static;
+}
+/* Fin: dimenciones de grupo */
+
+/* Inicio: Rectangulo */
+.rectangle-514 {
+  background: #ffffff;
+  border-radius: 10px;
+  border: solid #bbbbbb; 
+  border-width: 1px;
+  width: 240px; 
+  height: 341px;
+  position: absolute; 
+  left: 940px;
+  top: 194px;
+}
+/* Fin: Rectangulo */
+
+/* Inicio: Título */
+.business-checking-account {
+  color: #3256a0;
+  text-align: left;
+  font: 600 23px/100% 'Poppins';
+  position: absolute; 
+  left: 950px;
+  top: 274px;
+  width: 267px; 
+  height: 57px;
+}
+/* Fin: Título */
+
+/* Inicio: Subtitulo */
+.build-more-than-a-business--join-us-to-build-a-better-world- {
+  color: #454545;
+  text-align: left;
+  font: 600 17.96px/100% 'Poppins';
+  position: absolute; 
+  left: 950px;
+  top: 354px;
+  width: 197px; 
+  height: 44px;
+}
+/* Fin: Subtitulo */
+
+/* Inicio: Descripción */
+.we-are-proud-to-align-our-services-with-companies-that-contribute-positively-to-social--economic--and-environmental-impacts-and-responsibilities-to-pursue-the-social-good- {
+  color: #454545;
+  text-align: left;
+  font: 400 14px/100% 'Poppins';
+  position: absolute; 
+  left: 950px;
+  top: 424px;
+  width: 227px; 
+  height: 142px;
+}
+/* Fin: Descripción */
+
+/* Inicio: Icono */
+.vector15 {
+  position: absolute; 
+  left: 12px;
+  top: 8px;
+  overflow: visible;
+}
+/* Fin: Icono */
+
+/* FIN: BUSINESS CHECKING ACCOUNT */
+
+/* INICIO:  Elementos de selección de cuenta  */
+.h2{
+  text-align: left;
+  font: 600 23px/100% 'Poppins';
+  position: absolute; 
+  left: 22px;
+  top: 74px;
+}
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+section > div {
+  /* flex: 1; */
+    padding: 0.5rem; 
+    left: 10px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+input[type="radio"]:not(:disabled) ~ label .subtitle {
+  cursor: pointer;
+}
+input[type="radio"]:disabled ~ label {
+  color: #bcc2bf;
+  border-color: #bcc2bf;
+  box-shadow: none;
+}
+label {
+  display: block;
+  background: white;
+  border: 1px solid #294397;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  box-shadow: 0px 3px 10px -2px rgba(161, 170, 166, 0.5);
+  position: relative;
+  left: 102px;
+  top: 160px;
+  width: 240px; 
+  height: 341px;
+}
+input[type="radio"]:checked + label {
+  background: #294397;
+  color: white;
+}
+/* FIN:  Elementos de selección de cuenta  */
+
+
+/* FIN: BUSINESS CHECKING ACCOUNT */
+
+/* ********************************************************************************************************** */
+/*                                     FIN CUERPO: SELECCIÓN DE CUENTA                                        */
+/* ********************************************************************************************************** */
+
+/* ********************************************************************************************************** */
+/*                                     INICIO CUERPO: VIRTUE ACCOUNT FORM                                     */
+/* ********************************************************************************************************** */
+
+/* INICIO: TÍTULOS */
+.get-started--let-s-create-your-profile {
+  color: #294397;
+  text-align: center;
+  font: 400 19px/100% 'undefined';
+  position: absolute; 
+  left: 231px;
+  top: 100px;
+  width: 877px; 
+  height: 64px;
+}
+.get-started--let-s-create-your-profile-span {
+  color: #294397;
+  font: 700 30px/110% 'Poppins';
+}
+.get-started--let-s-create-your-profile-span2 {
+  color: #294397;
+  font: 600 30px/110% 'Poppins';
+}
+/* FIN: TÍTULOS*/
+
+/* INICIO: FORMULARIO */
+
+/* INICIO: dato primer nombre */
+.firstname{
+  font: 700 12.94px/100% 'poppins';
+  left: 320px;
+  top: 212px;
+  color:#454545;
+  position:absolute;
+}
+.redondeado {
+  background: #ffffff;
+  border-radius: 10px;
+  border: solid #bbbbbb; 
+  box-shadow: #213F8F;
+  border-width: 1px;
+  width: 356px; 
+  height: 48px;
+  position: absolute; 
+  left: 320px;
+  top: 232px;
+}
+.redondeado:focus{
+  outline: none; 
+  box-shadow: 0 0 0 2px #213F8F;
+}
+.redondeado:hover{
+  border-color: #213F8F;
+}
+/* FIN: dato primer nombre */
+
+/* INICIO: dato apellido */
+.lastname{
+  font: 700 12.94px/100% 'poppins';
+  left: 700px;
+  top: 212px;
+  color:#454545;
+  position:absolute;
+}
+.redondeado2 {
+  background: #ffffff;
+  border-radius: 10px;
+  border: solid #bbbbbb; 
+  box-shadow: #213F8F;
+  border-width: 1px;
+  width: 356px; 
+  height: 48px;
+  position: absolute; 
+  left: 700px;
+  top: 232px;
+}
+.redondeado2:focus{
+  outline: none; 
+  box-shadow: 0 0 0 2px #213F8F;
+}
+.redondeado2:hover{
+  border-color: #213F8F;
+}
+/* FIN: dato apellido */
+
+/* INICIO: dato correo electronico */
+.mailaddress{
+  font: 700 12.94px/100% 'poppins';
+  left: 320px;
+  top: 302px;
+  color:#454545;
+  position:absolute;
+}
+.redondeado3 {
+  background: #ffffff;
+  border-radius: 10px;
+  border: solid #bbbbbb; 
+  box-shadow: #213F8F;
+  border-width: 1px;
+  width: 740px; 
+  height: 48px;
+  position: absolute; 
+  left: 320px;
+  top: 320px;
+}
+.redondeado3:focus{
+  outline: none; 
+  box-shadow: 0 0 0 2px #213F8F;
+}
+.redondeado3:hover{
+  border-color: #213F8F;
+}
+/* FIN: dato correo electronico */
+
+/* INICIO: Número de telefono */
+.phone{
+  font: 700 12.94px/100% 'poppins';
+  left: 320px;
+  top: 385px;
+  color:#454545;
+  position:absolute;
+}
+.redondeado4 {
+  background: #ffffff;
+  border-radius: 10px;
+  border: solid #bbbbbb; 
+  box-shadow: #213F8F;
+  border-width: 1px;
+  width: 540px; 
+  height: 48px;
+  position: absolute; 
+  left: 520px;
+  top: 410px;
+}
+.redondeado4:focus{
+  outline: none; 
+  box-shadow: 0 0 0 2px #213F8F;
+}
+.redondeado4:hover{
+  border-color: #213F8F;
+}
+/* FIN: Número de telefono */
+
+/* INICIO: Selección de codigo de país */
+.countryphonecode{
+  background: #ffffff;
+  border-radius: 10px;
+  border: solid #bbbbbb; 
+  box-shadow: #213F8F;
+  border-width: 1px;
+  width: 180px; 
+  height: 48px;
+  position: absolute; 
+  left: 320px;
+  top: 410px;
+}
+.countryphonecode:focus{
+  outline: none; 
+  box-shadow: 0 0 0 2px #213F8F;
+}
+.countryphonecode:hover{
+  border-color: #213F8F;
+}
+/* FIN: Selección de codigo de país */
+
+/* INICIO: Botón volver */
+.buttonback{
+  font: 700 12.94px/100% 'poppins';
+  position: absolute;
+  width: 177px;
+  height: 47px;
+  left: 490px;
+  top: 489px;
+  color:#fff;
+  background-color: #213F8F;
+  border:none;
+  border-radius: 10px;
+}
+.buttonback:hover{
+  color:#fff;
+  background-color: #BBBBBB;
+}
+/* FIN: Botón volver */
+
+/* INICIO: Botón Continuar */
+.buttoncontinue{
+  font: 700 12.94px/100% 'poppins';
+  position: absolute;
+  width: 177px;
+  height: 47px;
+  left: 680px;
+  top: 489px;
+  color:#fff;
+  background-color: #BBBBBB;
+  border:none;
+  border-radius: 10px;
+}
+.buttoncontinue:hover{
+  color:#fff;
+  background-color: #213F8F;
+}
+/* Fin: Botón Continuar */
+/* ********************************************************************************************************** */
+/*                                     FIN CUERPO: VIRTUE ACCOUNT FORM                                        */
+/* ********************************************************************************************************** */
+
+/* ********************************************************************************************************** */
+/*                                     INICIO CUERPO: PAIS BLOQUEADO                                          */
+/* ********************************************************************************************************** */
+
+/* Inicio: Dimensiones de vistas  */
+.block-country {
+  background: #ffffff;
+  width: 1366px; 
+  height: 624px;
+  position: relative;
+  overflow: hidden;
+}
+/* Fin: Dimensiones de vistas  */
+
+/* Inicio: Imagen  */
+.lock-1 {
+  width: 307.56px; 
+  height: 266.75px;
+  position: absolute; 
+  left: 202px;
+  top: 170px;
+  background-image:url(images/paisbloqueado/ip_block.png); 
+  background-repeat:no-repeat; 
+  background-size:cover;
+}
+/* Fin: Imagen  */
+
+/* Inicio: Separador  */
+.separador {
+  background: #294397;
+  width: 2px; 
+  height: 395px;
+  position: absolute;
+  left: 524px;
+  top: 127px;
+}
+/* Fin: Separador  */
+
+/* Inicio: Titulos*/
+.titulo {
+  color: #294397;
+  text-align: left;
+  font: 400 40px/100% 'undefined';
+  position: absolute; 
+  left: 618px;
+  top: 200px;
+  width: 739px; 
+  height: 184px;
+}
+.titulo-span {
+  color: #294397;
+  font: 700 50px/100% 'Poppins';
+}
+.titulo-span2 {
+  color: #294397;
+  font: 200 50px/100% 'Poppins';
+}
+/* Fin: Titulos*/
+
+/* Inicio: Texto de cuerpo */
+.parrafo {
+  text-align: left;
+  font: 100 15.5px/100% 'Poppins';
+  position: absolute; 
+  color: #454545;
+  left: 618px;
+  top: 375px;
+  width: 614px; 
+  height: 66px;
+}
+
+.parrafo-span2 {
+  color: #4286f4;
+  font: 100 15.5px/100% 'Poppins';
+  text-decoration: underline;
+}
+
+.parrafo-span3 {
+  color: #454545;
+  font: 100 15.5px/130% 'Poppins';
+}
+/* Fin: Texto de cuerpo */
+
+/* ********************************************************************************************************** */
+/*                                   FIN CUERPO: PAIS BLOQUEADO                                               */
+/* ********************************************************************************************************** */
+
+
+
+
+/* .......................................................................................................... */
+/*                                               Footer                                                       */
+/* .......................................................................................................... */
+
+/* INICIO: Lineas Multicolores */
+.lineas-de-colores {
+  position: absolute; 
+  left: 50px;
+  top: 560px;
+  padding-right: 50px;
+  transform: translate(0px, -4px);
+  overflow: visible;
+}
+/* FIN: Lineas Multicolores */
+
+/* INICIO: Terminos y condiciones */
+.privacy-policy {
+  color: #294397;
+  text-align: left;
+  font: 500 12px 'Poppins';
+  text-decoration: underline;
+  position: absolute; 
+  left: 50px;
+  top: 570px;
+  width: 97px; 
+  height: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start
+}
+
+.accessibility-statement {
+  color: #294397;
+  text-align: left;
+  font: 500 12px 'Poppins';
+  text-decoration: underline;
+  position: absolute; 
+  left: 150px;
+  top: 570px;
+  width: 157px; 
+  height: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start
+}
+
+.terms-of-use {
+  color: #294397;
+  text-align: left;
+  font: 500 12px 'Poppins';
+  text-decoration: underline;
+  position: absolute; 
+  left: 310px;
+  top: 570px;
+  width: 98px; 
+  height: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start
+}
+/* FIN: Terminos y condiciones */
+
+
+/* INICIO: Derechos de autor */
+.--2022-aretibank--all-rights-reserved {
+  color: #4f4f4f;
+  text-align: left;
+  font: 500 12px/100% 'Poppins';
+  position: absolute; 
+  left: 620px;
+  top: 577px;
+  width: 246px; 
+  height: 10px;
+}
+/* FIN: Derechos de autor */
+
+/* INICIO: Redes Sociales */
+
+/* Inicio: Instagram  */
+.instagram {
+  width: 29px; 
+  height: 29px;
+  top: 570px;
+  position: static;
+}
+.instagram:hover{
+  opacity: 0.50;
+  -moz-opacity: .50;
+  filter:alpha (opacity=50);
+}
+.group {
+  position: absolute; 
+  left: 1137px;
+  top: 576px;
+  overflow: visible;
+}
+.ellipse-1 {
+  border-radius: 50%;
+  border: solid #bbbbbb; 
+  border-width: 1px;
+  width: 27px; 
+  height: 27px;
+  position: absolute; 
+  left: 1130px;
+  top: 570px;
+  
+}
+.ellipse-1:hover{
+  opacity: 0.50;
+  -moz-opacity: .50;
+  filter:alpha (opacity=50);
+}
+/* Fin: Instagram  */
+
+
+/* Inicio: Facebook*/  
+.facebook {
+  width: 29px; 
+  height: 29px;
+  top: 570px;
+  position: static;
+}
+.facebook:hover{
+  opacity: 0.50;
+  -moz-opacity: .50;
+  filter:alpha (opacity=50);
+}
+.group2 {
+  position: absolute; 
+  left: 1173px;
+  top: 575px;
+  overflow: visible;
+}
+.ellipse-2 {
+  border-radius: 50%;
+  border: solid #bbbbbb; 
+  border-width: 1px;
+  width: 27px; 
+  height: 27px;
+  position: absolute; 
+  left: 1165px;
+  top: 570px;
+}
+.ellipse-2:hover{
+  opacity: 0.50;
+  -moz-opacity: .50;
+  filter:alpha (opacity=50);
+} 
+/* Fin: Facebook  */ 
+
+
+/* Inicio: Twitter  */
+.twitter {
+  width: 29px; 
+  height: 29px;
+  position: static;
+}
+.twitter:hover{
+  opacity: 0.50;
+  -moz-opacity: .50;
+  filter:alpha (opacity=50);
+}
+.group3 {
+  position: absolute; 
+  left: 1205px;
+  top:579px;
+  overflow: visible;
+}
+.ellipse-3 {
+  border-radius: 50%;
+  border: solid #bbbbbb; 
+  border-width: 1px;
+  width: 29px; 
+  height: 29px;
+  position: absolute; 
+  left: 1199px;
+  top: 569px;
+}
+.ellipse-3:hover{
+  opacity: 0.50;
+  -moz-opacity: .50;
+  filter:alpha (opacity=50);
+} 
+/* Fin: Twitter  */
+
+
+/* Inicio: WhatsApp  */
+.whatsapp {
+  width: 29px; 
+  height: 29px;
+  position: static;
+}
+.whatsapp:hover{
+  opacity: 0.50;
+  -moz-opacity: .50;
+  filter:alpha (opacity=50);
+}
+.group4 {
+  position: absolute; 
+  left: 1242px;
+  top: 576px;
+  overflow: visible;
+}
+.ellipse-4 {
+  border-radius: 50%;
+  border: solid #bbbbbb; 
+  border-width: 1px;
+  width: 29px; 
+  height: 29px;
+  position: absolute; 
+  left: 1235px;
+  top: 569px;
+}
+.ellipse-4:hover{
+  opacity: 0.50;
+  -moz-opacity: .50;
+  filter:alpha (opacity=50);
+} 
+/* Fin: WhatsApp  */
+
+
+/* Inicio: LinkedIn  */
+.linkedin {
+  width: 29px; 
+  height: 29px;
+  top: 575px;
+  position: static;
+}
+.linkedin:hover{
+  opacity: 0.50;
+  -moz-opacity: .50;
+  filter:alpha (opacity=50);
+}
+.group5 {
+  position: absolute; 
+  left: 1277px;
+  top: 575px;
+  overflow: visible;
+}
+.ellipse-5 {
+  border-radius: 50%;
+  border: solid #bbbbbb; 
+  border-width: 1px;
+  width: 27px; 
+  height: 27px;
+  position: absolute; 
+  left: 1270px;
+  top: 570px;
+}
+.ellipse-5:hover{
+  opacity: 0.50;
+  -moz-opacity: .50;
+  filter:alpha (opacity=50);
+}
+/* Fin: LinkedIn  */
+
+/* INICIO: Redes Sociales */
+
+
+
+

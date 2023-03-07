@@ -1,0 +1,4766 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');        
+
+        
+
+.containerabsolute{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: max-content;
+    height: max-content;
+    background-image:url(images/background/background.png);
+    background-repeat:no-repeat;
+    background-size: 1466px 150%;
+}
+
+    /* ................................. */
+    /* INICIO: Background                */
+    /* ................................. */
+    .backgroundabsolute {
+        background-image:url(images/background/background.png);
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-size: contain;
+    }
+    /* ................................. */
+    /* FIN: Background                   */
+    /* ................................. */
+  /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+  /*                                            INICIO DIMENSIONES                                        */
+  /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+
+
+  /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+  /*                                              FIN DIMENSIONES                                         */
+  /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+
+
+  /* #################################################################################################### */
+
+
+
+  /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+  /*                                             INICIO HEADER                                            */
+  /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+        /* ................................. */
+        /* INICIO: Background                */
+        /* ................................. */
+        .background2 {
+            background-image:url(images/background/background.png);
+            background-repeat:no-repeat;
+            background-size: cover;
+            background-size: contain;
+        }
+        /* ................................. */
+        /* FIN: Background                   */
+        /* ................................. */
+
+      /* ................................. */
+      /* INICIO: Logo                      */
+      /* ................................. */
+      .logo {
+        width: 144px;
+        height: 50px;
+        position: absolute; 
+        left: 200px;
+        top: 36px; 
+        right: 1022px;
+        bottom: 682px;
+        background-image:url(images/logo/logo_header.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+      }
+      /* ................................. */
+      /* FIN: logo                         */
+      /* ................................. */
+
+        /* ................................. */
+        /* INICIO: Country select            */
+        /* ................................. */
+        .country1 {
+            width: 105.8px;
+            height: 29.5px;
+            flex-grow: 0;
+            padding-left: 20px;
+            padding-right: 20px;
+            position: absolute;
+            left:1100.3px;
+            top:55.4px;
+            right: 239.1px;
+            bottom: 701.8px;
+            border-radius: 7.2px;
+            border: solid 1.6px #3256a0;
+            color:#3256a0;
+            background-size: 0.8em auto;
+        }
+        .country1:focus{
+            outline: none; 
+        }
+        /* ................................. */
+        /* FIN: Country select               */
+        /* ................................. */
+
+      
+
+
+
+  /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+  /*                                             FIN HEADER                                               */
+  /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+
+
+  /* #################################################################################################### */
+
+
+
+  /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+  /*                                            INICIO BODY´s                                             */
+  /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+        /* ................................. */
+        /* INICIO: Background                */
+        /* ................................. */
+        .background {
+            background-image:url(images/background/background.png);
+            background-repeat:no-repeat;
+            background-size: cover;
+            background-size: contain;
+        }
+        /* ................................. */
+        /* FIN: Background                   */
+        /* ................................. */
+
+      /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+      /*                            INICIO BODY: Cuerpo de pagina - ACCOUNT PURPOSE                       */
+      /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+        /* ................................. */
+        /* INICIO : Title page               */
+        /* ................................. */
+        .Personal-details {
+            width: 473px;
+            height: 19px;
+            position: absolute;
+            left: 446px;
+            right: 447px;
+            top: 156px;
+            bottom: 729px;
+            font-family: Poppins;
+            font-size: 21.3px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.1;
+            letter-spacing: normal;
+            text-align: center;
+            color: #294397;
+        }
+        /* ................................. */
+        /* FIN : Title page                  */
+        /* ................................. */
+
+        /* ................................. */
+        /* INICIO : Mensaje                  */
+        /* ................................. */
+        .message {
+            width: 473px;
+            height: 21px;
+            position: absolute;
+            left: 446px;
+            right: 447px;
+            top: 199px;
+            bottom: 684px;
+            font-family: Poppins;
+            font-size: 12.8px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.2;
+            letter-spacing: normal;
+            text-align: center;
+            color: #454545;
+        }
+        /* ................................. */
+        /* FIN : Mensaje                     */
+        /* ................................. */
+    
+        /* ................................. */
+        /* INICIO : Mensaje                  */
+        /* ................................. */
+        .stylem{
+            font-size: 9.2px;
+            font-weight: 300;
+            line-height: 1.2;
+        }
+        /* ................................. */
+        /* FIN : Mensaje                     */
+        /* ................................. */
+
+        .container3{  
+            width: 450px;  
+            display: flex;  
+            justify-content: space-between;  
+            flex-wrap: wrap;  
+            position: absolute;
+            left:-108px;
+            top:-455px;
+        } 
+
+        .container{  
+            width: 450px;  
+            display: flex;  
+            justify-content: space-between;  
+            flex-wrap: wrap;  
+            position: absolute;
+            left:447px;
+            top:255px;
+        }  
+
+        .checkbox{  
+            width: 144px;
+            height: 48px;
+            position: relative;  
+            margin: 0.5em 0;  
+        }  
+
+        .checkbox input{  
+            position: absolute;  
+            cursor: pointer;  
+            width: 100%;  
+            height: 100%;  
+            z-index: 2;  
+            appearance: none;  
+            -webkit-appearance: none;  
+        }  
+
+        .box{  
+            width: 100%;  
+            height: 100%;  
+            position: absolute;  
+            z-index: 1;  
+            background: #ffffff;    
+            border-radius: 9.5px;
+            border: solid 0.6px #bbb;
+            color: rgb(63, 63, 63);  
+            display: flex;  
+            justify-content:center;  
+            align-items: center;  
+            overflow: hidden;  
+            transition: all 0.6s;  
+        }  
+        .box i{  
+            margin-right: 0.3em;  
+        }  
+
+        .box p::before{  
+            content: attr(data-text);  
+            position: absolute;  
+
+        }  
+
+        .checkbox input:checked ~ .box {  
+            background: #f7f7f7;  
+            border: 2px solid  #294397;  
+            color:  #294397;  
+        }   
+
+        .textstyle {
+            width: 89px;
+            height: 20px;
+            flex-grow: 0;
+            margin: 6.5px 0 2px 8.9px;
+            font-family: Poppins;
+            font-size: 9.2px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1;
+            letter-spacing: normal;
+            text-align: left;
+            color: #454545;
+        }
+
+        .rectangleb {
+            width: 23.5px;
+            height: 23.5px;
+            flex-grow: 0;
+            margin: 0 8.9px 0 0;
+            padding: 3.8px 3.8px 3.2px 3.2px;
+            border-radius: 3.2px;
+            background-color: #e1e1e1;
+        }
+
+        .image{
+            width: 16.5px;
+            height: 16.5px;
+        }
+
+        .Other-specify {
+            width: 211.9px;
+            height: 17px;
+            flex-grow: 0;
+            position: absolute;
+            top: 409px;
+            right: 702.9px;
+            left:451.3px ;
+            bottom: 342px;
+            font-family: Poppins;
+            font-size: 9.2px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #bbb;
+        }
+
+        .input-specific {
+            width: 472px;
+            height: 105px;
+            flex-grow: 0;
+            position: absolute;
+            top: 432px;
+            right:447px ;
+            left: 447px;
+            bottom: 231px;
+            border-radius: 7.1px;
+            border: solid 0.7px #bbb;
+            background-color: #bbb;
+        }
+        .input-specific:focus{
+            outline: none;
+            border-color: #294397;
+        }
+
+        .characters-left {
+            width: 211.9px;
+            height: 17px;
+            flex-grow: 0;
+            position: absolute;
+            top: 554px;
+            right: 702.9px ;
+            left: 451.3px;
+            bottom: 207px;
+            font-family: Poppins;
+            font-size: 9.2px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #bbb;
+        }
+        /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+        /*                            INICIO BODY: Cuerpo de pagina - ACCOUNT PURPOSE                       */
+        /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+
+
+        /* #################################################################################################### */
+
+
+
+        /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+        /*                              INICIO BODY: Cuerpo de pagina - WEALTH                              */
+        /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+        .Other-specify2 {
+            width: 211.9px;
+            height: 17px;
+            flex-grow: 0;
+            position: absolute;
+            top: 529px;
+            right: 702.9px;
+            left:451.3px ;
+            bottom: 342px;
+            font-family: Poppins;
+            font-size: 9.2px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #bbb;
+        }
+
+        .input-specific2 {
+            width: 472px;
+            height: 105px;
+            flex-grow: 0;
+            position: absolute;
+            top: 552px;
+            right:447px ;
+            left: 447px;
+            bottom: 231px;
+            border-radius: 7.1px;
+            border: solid 0.7px #bbb;
+            background-color: #bbb;
+        }
+        .input-specific2:focus{
+            outline: none;
+            border-color: #294397;
+        }
+
+        .characters-left2 {
+            width: 211.9px;
+            height: 17px;
+            flex-grow: 0;
+            position: absolute;
+            top: 664px;
+            right: 702.9px ;
+            left: 451.3px;
+            bottom: 207px;
+            font-family: Poppins;
+            font-size: 9.2px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #bbb;
+        }
+
+        /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+        /*                                FIN BODY: Cuerpo de pagina - WEALTH                               */
+        /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+
+
+        /* #################################################################################################### */
+
+
+
+        /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+        /*                               INICIO BODY: Cuerpo de pagina - MOUNTHLY ACTIVITY                  */
+        /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+        /* ................................. */
+        /* INICIO : DATO #1                  */
+        /* ................................. */
+
+            /* ................................. */
+            /* INICIO : Label dato #1            */
+            /* ................................. */
+            .Incoming {
+                width: 108.7px;
+                height: 16.8px;
+                flex-grow: 0;
+                position: absolute;
+                top:246px;
+                left:451.3px;
+                bottom: 505.2px;
+                right: 806px;
+                font-family: Poppins;
+                font-size: 9.2px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: left;
+                color: #454545;
+            }
+            /* ................................. */
+            /* FIN : Label dato #1               */
+            /* ................................. */
+
+            /* .................................. */
+            /* INICIO : Ocupation Sector - Select */
+            /* .................................. */
+            .Incoming-select {
+                width: 227px;
+                height: 33.4px;
+                flex-grow: 0;
+                position:absolute;
+                left: 447px;
+                right: 693px;
+                top: 269px;
+                bottom: 702px;
+                border-radius: 7.1px;
+                border: solid 0.7px #bbb;
+                background-color: #fff;
+                font-family: Poppins;
+                font-size: 11px;
+            }
+            .Incoming-select:focus{
+                outline:none;
+                border-color: #213F8F;
+            }
+            /* ................................. */
+            /* FIN : Ocupation Sector  - Select  */
+            /* ................................. */
+
+        /* ................................. */
+        /* FIN : DATO #1                     */
+        /* ................................. */
+
+        /* ................................. */
+        /* INICIO : DATO #2                  */
+        /* ................................. */
+
+            /* ................................. */
+            /* INICIO : Label dato #2            */
+            /* ................................. */
+                .Occupation-Sector {
+                    width: 108.7px;
+                    height: 16.8px;
+                    flex-grow: 0;
+                    position: absolute;
+                    top:246px;
+                    left:698.3px;
+                    bottom: 505.2px;
+                    right: 559px;
+                    font-family: Poppins;
+                    font-size: 9.2px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #454545;
+                }
+                /* ................................. */
+                /* INICIO : Label dato #2            */
+                /* ................................. */
+
+                /* .................................. */
+                /* INICIO : Ocupation Sector - Select */
+                /* .................................. */
+                .Occupation-Sector-select2 {
+                    width: 227px;
+                    height: 33.4px;
+                    flex-grow: 0;
+                    position:absolute;
+                    left: 694px;
+                    right: 446px;
+                    top: 269px;
+                    bottom: 465px;
+                    border-radius: 7.1px;
+                    border: solid 0.7px #bbb;
+                    background-color: #fff;
+                    font-family: Poppins;
+                    font-size: 11px;
+                }
+                .Occupation-Sector-select2:focus{
+                    outline:none;
+                    border-color: #213F8F;
+                }
+                /* ................................. */
+                /* FIN : Ocupation Sector  - Select  */
+                /* ................................. */
+
+        /* ................................. */
+        /* FIN : DATO #2                     */
+        /* ................................. */
+
+        /* ................................. */
+        /* INICIO : DATO #3                  */
+        /* ................................. */
+
+            /* ................................. */
+            /* INICIO : Label dato #3            */
+            /* ................................. */
+            .Outgoing {
+                width: 108.7px;
+                height: 16.8px;
+                flex-grow: 0;
+                position: absolute;
+                top: 317px;;
+                left:451.3px;
+                bottom: 434.2px;
+                right: 806px;
+                font-family: Poppins;
+                font-size: 9.2px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: left;
+                color: #454545;
+            }
+            /* ................................. */
+            /* FIN : Label dato #3               */
+            /* ................................. */
+
+            /* .................................. */
+            /* INICIO : Outgoing Select2          */
+            /* .................................. */
+            .Outgoing-select2 {
+                width: 227px;
+                height: 33.4px;
+                flex-grow: 0;
+                position:absolute;
+                left: 447px;
+                right: 693px;
+                top: 340px;
+                bottom: 394px;
+                border-radius: 7.1px;
+                border: solid 0.7px #bbb;
+                background-color: #fff;
+                font-family: Poppins;
+                font-size: 11px;
+            }
+            .Outgoing-select2:focus{
+                outline:none;
+                border-color: #213F8F;
+            }
+            /* ................................. */
+            /* FIN : Outgoing Select2            */
+            /* ................................. */
+
+        /* ................................. */
+        /* FIN : DATO #3                     */
+        /* ................................. */
+
+        /* ................................. */
+        /* INICIO : DATO #4                  */
+        /* ................................. */
+
+            /* ................................. */
+            /* INICIO : Label dato #4            */
+            /* ................................. */
+            .Occupation-Sector2 {
+                width: 108.7px;
+                height: 16.8px;
+                flex-grow: 0;
+                position: absolute;
+                top: 317px;;
+                left:698.3px;
+                bottom: 434.2px;
+                right: 806px;
+                font-family: Poppins;
+                font-size: 9.2px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: left;
+                color: #454545;
+            }
+            /* ................................. */
+            /* FIN : Label dato #4               */
+            /* ................................. */
+        
+            
+            /* .................................. */
+            /* INICIO : Outgoing Select2          */
+            /* .................................. */
+            .Occupation-Sector-select3 {
+                width: 227px;
+                height: 33.4px;
+                flex-grow: 0;
+                position:absolute;
+                left: 694px;
+                right: 446px;
+                top: 340px;
+                bottom: 394px;
+                border-radius: 7.1px;
+                border: solid 0.7px #bbb;
+                background-color: #fff;
+                font-family: Poppins;
+                font-size: 11px;
+            }
+            .Occupation-Sector-select3:focus{
+                outline:none;
+                border-color: #213F8F;
+            }
+            /* ................................. */
+            /* FIN : Outgoing Select2            */
+            /* ................................. */
+
+        /* ................................. */
+        /* FIN : DATO #4                     */
+        /* ................................. */
+
+        /* ................................. */
+        /* INICIO : SELECT CHECK DEPOSIT     */
+        /* ................................. */
+        .Check-Deposit{
+            width: 222px;
+            height: 17px;
+            flex-grow: 0;
+            position: absolute;
+            top: 388px;;
+            left: 451px;
+            bottom: 363px;
+            right: 693px;
+            font-family: Poppins;
+            font-size: 9.2px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #bbb;
+          }
+          
+          .Check-Deposit .text-style-1-1-2 {
+            font-weight: 500;
+          }
+        /* ................................. */
+        /* FIN : SELECT CHECK DEPOSIT        */
+        /* ................................. */
+
+        /* .................................. */
+        /* INICIO : Ocupation Sector - Select */
+        /* .................................. */
+        .Incoming-select {
+            width: 227px;
+            height: 33.4px;
+            flex-grow: 0;
+            position:absolute;
+            left: 447px;
+            right: 693px;
+            top: 269px;
+            bottom: 702px;
+            border-radius: 7.1px;
+            border: solid 0.7px #bbb;
+            background-color: #fff;
+            font-family: Poppins;
+            font-size: 11px;
+        }
+        .Incoming-select:focus{
+            outline:none;
+            border-color: #213F8F;
+        }
+        /* ................................. */
+        /* FIN : Ocupation Sector  - Select  */
+        /* ................................. */
+
+        /* .................................. */
+        /* INICIO : Check Deposit Select1     */
+        /* .................................. */
+        .Check-Deposit-select1 {
+            width: 227px;
+            height: 33.4px;
+            flex-grow: 0;
+            position:absolute;
+            left: 447px;
+            right: 693px;
+            top: 411px;
+            bottom: 323px;
+            border-radius: 7.1px;
+            border: solid 0.7px #bbb;
+            background-color: #bbbbbb;
+            font-family: Poppins;
+            font-size: 11px;
+        }
+        .Check-Deposit-select1:focus{
+            outline:none;
+            border-color: #213F8F;
+        }
+        /* .................................. */
+        /* FIN : Check Deposit Select1        */
+        /* .................................. */
+
+        /* .................................. */
+        /* INICIO : Check Deposit Select2     */
+        /* .................................. */
+        .Check-Deposit-select2 {
+            width: 227px;
+            height: 33.4px;
+            flex-grow: 0;
+            position:absolute;
+            left: 694px;
+            right: 446px;
+            top: 411px;
+            bottom: 323px;
+            border-radius: 7.1px;
+            border: solid 0.7px #bbb;
+            background-color: #bbbbbb;
+            font-family: Poppins;
+            font-size: 11px;
+        }
+        .Check-Deposit-select2:focus{
+            outline:none;
+            border-color: #213F8F;
+        }
+        /* .................................. */
+        /* FIN : Check Deposit Select2        */
+        /* .................................. */
+
+        /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+        /*                               FIN BODY: Cuerpo de pagina - MOUNTHLY ACTIVITY                     */
+        /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+
+
+        /* #################################################################################################### */
+
+
+
+        /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+        /*                               INICIO BODY: Cuerpo de pagina - RECIVE/SEND MONEY                  */
+        /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+        /* .................................. */
+        /* INICIO : Title page RECEIVE money  */
+        /* .................................. */
+        .Title-page-RECEIVE-money {
+            width: 473px;
+            height: 46px;
+            position: absolute;
+            top: 156px;
+            left:446px;
+            right: 447px;
+            bottom: 566px;
+            font-family: Poppins;
+            font-size: 21.3px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.1;
+            letter-spacing: normal;
+            text-align: center;
+            color: #294397;
+          }
+          
+          .Title-page-RECEIVE-money-text-style-1 {
+            color: #e69139;
+          }
+        /* .................................. */
+        /* FIN : Title page RECEIVE money     */
+        /* .................................. */
+
+        
+        /* ..................................... */
+        /* INICIO : Inicio: Formulario select´s  */
+        /* ..................................... */
+        
+            /* ..................................... */
+            /* INICIO : Select country 1             */
+            /* ..................................... */
+
+                /* .............................................. */
+                /* INICIO : label Country-code-RECIVE - country 1 */
+                /* .............................................. */
+                .Country-1 {
+                    width: 108.7px;
+                    height: 16.8px;
+                    flex-grow: 0;
+                    position: absolute;
+                    top: 246px;
+                    left: 451.3px;
+                    right: 806px;
+                    bottom: 505.2px;
+                    font-family: Poppins;
+                    font-size: 9.2px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #454545;
+                }
+                /* .............................................. */
+                /* FIN : label Country-code-RECIVE - country 1    */
+                /* .............................................. */
+
+                /* .................................. */
+                /* INICIO : Country-code-RECIVE     */
+                /* .................................. */
+                .Country-code-RECIVE {
+                    width: 144px;
+                    height: 34px;
+                    flex-grow: 0;
+                    position:absolute;
+                    left: 447px;
+                    right: 775px;
+                    top: 269px;
+                    bottom: 465px;
+                    border-radius: 7.1px;
+                    border: solid 0.7px #bbb;
+                    background-color: #fff;
+                    font-family: Poppins;
+                    font-size: 11px;
+                }
+                .Country-code-RECIVE:focus{
+                    outline:none;
+                    border-color: #213F8F;
+                }
+                /* .................................. */
+                /* FIN : Country-code-RECIVE          */
+                /* .................................. */
+
+            /* ..................................... */
+            /* FIN : Select country 1                */
+            /* ..................................... */
+
+            /* ..................................... */
+            /* INICIO : Select country 2             */
+            /* ..................................... */
+
+                /* .............................................. */
+                /* INICIO : label Country-code-RECIVE - country 2 */
+                /* .............................................. */
+                .Country-2 {
+                    width: 108.7px;
+                    height: 16.8px;
+                    flex-grow: 0;
+                    position: absolute;
+                    top: 246px;
+                    left: 615.3px;
+                    right: 806px;
+                    bottom: 505.2px;
+                    font-family: Poppins;
+                    font-size: 9.2px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #454545;
+                }
+                /* .............................................. */
+                /* FIN : label Country-code-RECIVE - country 2    */
+                /* .............................................. */
+
+                /* .................................. */
+                /* INICIO : Country-code-RECIVE       */
+                /* .................................. */
+                .Country-code-RECIVE2 {
+                    width: 144px;
+                    height: 34px;
+                    flex-grow: 0;
+                    position:absolute;
+                    left: 611px;
+                    right: 775px;
+                    top: 269px;
+                    bottom: 465px;
+                    border-radius: 7.1px;
+                    border: solid 0.7px #bbb;
+                    background-color: #fff;
+                    font-family: Poppins;
+                    font-size: 11px;
+                }
+                .Country-code-RECIVE2:focus{
+                    outline:none;
+                    border-color: #213F8F;
+                }
+                /* .................................. */
+                /* FIN : Country-code-RECIVE          */
+                /* .................................. */
+            
+            /* ..................................... */
+            /* FIN : Select country 2                */
+            /* ..................................... */
+
+            /* ..................................... */
+            /* INICIO : Select country 3             */
+            /* ..................................... */
+            
+                /* .............................................. */
+                /* INICIO : label Country-code-RECIVE - country 3 */
+                /* .............................................. */
+                .Country-3 {
+                    width: 108.7px;
+                    height: 16.8px;
+                    flex-grow: 0;
+                    position: absolute;
+                    top: 246px;
+                    left: 779.3px;
+                    right: 806px;
+                    bottom: 505.2px;
+                    font-family: Poppins;
+                    font-size: 9.2px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #454545;
+                }
+                /* .............................................. */
+                /* FIN : label Country-code-RECIVE - country 3    */
+                /* .............................................. */
+
+                /* .................................. */
+                /* INICIO : Country-code-RECIVE       */
+                /* .................................. */
+                .Country-code-RECIVE3 {
+                    width: 144px;
+                    height: 34px;
+                    flex-grow: 0;
+                    position:absolute;
+                    left: 775px;
+                    right: 775px;
+                    top: 269px;
+                    bottom: 465px;
+                    border-radius: 7.1px;
+                    border: solid 0.7px #bbb;
+                    background-color: #fff;
+                    font-family: Poppins;
+                    font-size: 11px;
+                }
+                .Country-code-RECIVE3:focus{
+                    outline:none;
+                    border-color: #213F8F;
+                }
+                /* .................................. */
+                /* FIN : Country-code-RECIVE          */
+                /* .................................. */
+            
+            /* ..................................... */
+            /* FIN : Select country 3                */
+            /* ..................................... */
+
+        /* ..................................... */
+        /* FIN : Inicio: Formulario select´s     */
+        /* ..................................... */
+
+
+        /* .................................. */
+        /* INICIO : Title page SEND money     */
+        /* .................................. */
+        .Title-page-SEND-money {
+            width: 473px;
+            height: 46px;
+            position: absolute;
+            top: 347px;
+            left:446px;
+            right: 447px;
+            bottom: 566px;
+            font-family: Poppins;
+            font-size: 21.3px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.1;
+            letter-spacing: normal;
+            text-align: center;
+            color: #294397;
+          }
+          
+          .Title-page-SEND-money-text-style-1 {
+            color: #e69139;
+          }
+        /* .................................. */
+        /* FIN : Title page SEND money        */
+        /* .................................. */
+
+        /* ..................................... */
+        /* INICIO : Inicio: Formulario select´s  */
+        /* ..................................... */
+            /* ..................................... */
+            /* INICIO : Select country 1             */
+            /* ..................................... */
+
+                /* .............................................. */
+                /* INICIO : label Country-code-SEND - country 1 */
+                /* .............................................. */
+                .Country-1-1 {
+                    width: 108.7px;
+                    height: 16.8px;
+                    flex-grow: 0;
+                    position: absolute;
+                    top: 437px;
+                    left: 451.3px;
+                    right: 806px;
+                    bottom: 505.2px;
+                    font-family: Poppins;
+                    font-size: 9.2px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #454545;
+                }
+                /* .............................................. */
+                /* FIN : label Country-code-SEND - country 1      */
+                /* .............................................. */
+
+                /* .................................. */
+                /* INICIO : Country-code-SEND         */
+                /* .................................. */
+                .Country-code-SEND {
+                    width: 144px;
+                    height: 34px;
+                    flex-grow: 0;
+                    position:absolute;
+                    left: 447px;
+                    right: 775px;
+                    top: 460px;
+                    bottom: 465px;
+                    border-radius: 7.1px;
+                    border: solid 0.7px #bbb;
+                    background-color: #fff;
+                    font-family: Poppins;
+                    font-size: 11px;
+                }
+                .Country-code-SEND:focus{
+                    outline:none;
+                    border-color: #213F8F;
+                }
+                /* .................................. */
+                /* FIN : Country-code-SEND          */
+                /* .................................. */
+
+            /* ..................................... */
+            /* FIN : Select country 1                */
+            /* ..................................... */
+
+                        /* ..................................... */
+            /* INICIO : Select country 2             */
+            /* ..................................... */
+
+                /* .............................................. */
+                /* INICIO : label Country-code-SEND - country 2   */
+                /* .............................................. */
+                .Country-2-2 {
+                    width: 108.7px;
+                    height: 16.8px;
+                    flex-grow: 0;
+                    position: absolute;
+                    top: 437px;
+                    left: 615.3px;
+                    right: 806px;
+                    bottom: 505.2px;
+                    font-family: Poppins;
+                    font-size: 9.2px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #454545;
+                }
+                /* .............................................. */
+                /* FIN : label Country-code-SEND - country 2      */
+                /* .............................................. */
+
+                /* .................................. */
+                /* INICIO : Country-code-SEND         */
+                /* .................................. */
+                .Country-code-SEND2 {
+                    width: 144px;
+                    height: 34px;
+                    flex-grow: 0;
+                    position:absolute;
+                    left: 611px;
+                    right: 775px;
+                    top: 460px;
+                    bottom: 465px;
+                    border-radius: 7.1px;
+                    border: solid 0.7px #bbb;
+                    background-color: #fff;
+                    font-family: Poppins;
+                    font-size: 11px;
+                }
+                .Country-code-SEND2:focus{
+                    outline:none;
+                    border-color: #213F8F;
+                }
+                /* .................................. */
+                /* FIN : Country-code-SEND            */
+                /* .................................. */
+            
+            /* ..................................... */
+            /* FIN : Select country 2                */
+            /* ..................................... */
+
+            /* ..................................... */
+            /* INICIO : Select country 3             */
+            /* ..................................... */
+            
+                /* .............................................. */
+                /* INICIO : label Country-code-SEND - country 3   */
+                /* .............................................. */
+                .Country-3-3 {
+                    width: 108.7px;
+                    height: 16.8px;
+                    flex-grow: 0;
+                    position: absolute;
+                    top: 437px;
+                    left: 779.3px;
+                    right: 806px;
+                    bottom: 505.2px;
+                    font-family: Poppins;
+                    font-size: 9.2px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #454545;
+                }
+                /* .............................................. */
+                /* FIN : label Country-code-SEND - country 3      */
+                /* .............................................. */
+
+                /* .................................. */
+                /* INICIO : Country-code-SEND 3       */
+                /* .................................. */
+                .Country-code-SEND3 {
+                    width: 144px;
+                    height: 34px;
+                    flex-grow: 0;
+                    position:absolute;
+                    left: 775px;
+                    right: 775px;
+                    top: 460px;
+                    bottom: 465px;
+                    border-radius: 7.1px;
+                    border: solid 0.7px #bbb;
+                    background-color: #fff;
+                    font-family: Poppins;
+                    font-size: 11px;
+                }
+                .Country-code-SEND3:focus{
+                    outline:none;
+                    border-color: #213F8F;
+                }
+                /* .................................. */
+                /* FIN : Country-code-SEND 3          */
+                /* .................................. */
+            
+            /* ..................................... */
+            /* FIN : Select country 3                */
+            /* ..................................... */
+
+        /* ..................................... */
+        /* FIN : Inicio: Formulario select´s     */
+        /* ..................................... */
+
+    
+
+        /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+        /*                               FIN BODY: Cuerpo de pagina - RECIVE/SEND MONEY                     */
+        /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+
+
+        /* ================================================================================================ */
+
+
+
+        /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+        /*                               INICIO BODY: Cuerpo de pagina - + SIGNER NO                        */
+        /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+        
+        /* .................................. */
+        /* INICIO : Title page NO SIGNER      */
+        /* .................................. */
+        .Title-page-no-signer {
+            width: 345.8px;
+            height: 52.6px;
+            position:absolute;
+            left: 510px;
+            right: 510.2px;
+            top: 334.4px;
+            bottom: 381px;
+            font-family: Poppins;
+            font-size: 21.3px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.3;
+            letter-spacing: normal;
+            text-align: center;
+            color: #294397;
+        }
+        /* .................................. */
+        /* FIN : Title page NO SIGNER         */
+        /* .................................. */
+
+        /* ................................. */
+        /* Inicio: Option yes - radio button */
+        /* ................................. */
+        .input20[type="radio"]{
+            display: none;
+          }
+          .input20[type="radio"] + label span {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background: transparent;
+            vertical-align: middle;
+            border: 2px solid  #294397;
+            border-radius: 50%;
+            padding: 2px;
+            margin:0 5px;
+          }
+          .input20[type="radio"]:checked + label span {
+            width: 10px;
+            height: 10px;
+            background:  #294397;
+            background-clip: content-box;
+          } 
+        .Yes4 {
+            position: absolute;
+            left: 618.9px;
+            right: 694.2px;
+            top: 430px;
+            bottom: 393.5px;
+            width: 52.9px;
+            height: 10.6px;
+            flex-grow: 0;
+            font-family: Poppins;
+            font-size: 12.8px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1;
+            letter-spacing: normal;
+            text-align: center;
+            color: #294397;
+        }
+        /* ................................. */
+        /* Fin: Option yes - radio button    */
+        /* ................................. */
+
+        /* ................................. */
+        /* Inicio: Option no - radio button  */
+        /* ................................. */
+        .input21[type="radio"]{
+            display: none;
+            }
+            .input21[type="radio"] + label span {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background: transparent;
+            vertical-align: middle;
+            border: 2px solid  #294397;
+            border-radius: 50%;
+            padding: 2px;
+            margin:0 5px;
+            }
+            .input21[type="radio"]:checked + label span {
+            width: 10px;
+            height: 10px;
+            background:  #294397;
+            background-clip: content-box;
+            } 
+        .No4 {
+            position: absolute;
+            left: 710.1;
+            right: 694.2px;
+            top: 430px;
+            bottom: 393.5px;
+            width: 52.9px;
+            height: 10.6px;
+            flex-grow: 0;
+            margin: 2.8px 0 3.5px 16.9px;
+            font-family: Poppins;
+            font-size: 12.8px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1;
+            letter-spacing: normal;
+            text-align: center;
+            color: #294397;
+        }
+        /* ................................. */
+        /* Fin: Option no - radio button     */
+        /* ................................. */
+
+        /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+        /*                               FIN BODY: Cuerpo de pagina - + SIGNER NO                           */
+        /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+
+    /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+    /*                                           INICIO BOTONES                                             */
+    /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+        
+        /* ................................. */
+        /*  BOTONES - VISTA START */
+        /* ................................. */
+
+            /* ................................. */
+            /* INICIO: Botón Star Applicatión    */
+            /* ................................. */
+            .button-start {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12.8px;
+                position: absolute;
+                width: 309px;
+                height: 43px;
+                left: 200px;
+                top: 472px ;
+                right: 857px ;
+                bottom: 253px ;
+                color:#fff;
+                background-color: #213F8F;
+                border:none;
+                border-radius: 10px;
+            }
+            .button-start:hover{
+                color:#fff;
+                background-color: #BBBBBB;
+            }
+            /* ................................. */
+            /* FIN: Botón Star Applicatión       */
+            /* ................................. */
+
+        /* ................................. */
+        /*  BOTONES - VISTA START            */
+        /* ................................. */
+        
+        
+        
+        /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+
+        /* ................................. */
+        /*  BOTONES - VISTA ACCOUNT TYPE     */
+        /* ................................. */
+
+        .button-continue {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 9.96px;
+            position: absolute;
+            width: 125px;
+            height: 33px;
+            left: 620px;
+            top: 608px ;
+            right: 621px ;
+            bottom: 127px ;
+            color:#fff;
+            background-color: #213F8F;
+            border:none;
+            border-radius: 10px;
+        }
+        .button-continue:hover{
+            color:#fff;
+            background-color: #BBBBBB;
+        }
+
+        /* ................................. */
+        /*  BOTONES - VISTA ACCOUNT TYPE     */
+        /* ................................. */
+
+
+
+        /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+
+        /* ................................. */
+        /*  BOTONES - VIRTUE ACCOUNT FORM    */
+        /* ................................. */
+
+            /* ................................. */
+            /* INICIO : Button back              */
+            /* ................................. */
+
+            .button-back {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 10px;
+                position: absolute;
+                width: 125px;
+                height: 33px;
+                left: 546px;
+                top: 608px ;
+                right: 695px ;
+                bottom: 127px ;
+                color:#fff;
+                background-color: #213F8F;
+                border:none;
+                border-radius: 10px;
+            }
+            .button-back:hover{
+                color:#fff;
+                background-color: #BBBBBB;
+            }
+
+            /* ................................. */
+            /* FIN : Button back                 */
+            /* ................................. */
+
+            /* ................................. */
+            /* INICIO : Button continue          */
+            /* ................................. */
+            .button-continue1 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 10px;
+                position: absolute;
+                width: 125px;
+                height: 33px;
+                left: 694.7px;
+                top: 608px ;
+                right: 546.3px ;
+                bottom: 127px ;
+                color:#fff;
+                background-color: #213F8F;
+                border:none;
+                border-radius: 10px;
+            }
+            .button-continue1:hover{
+                color:#fff;
+                background-color: #BBBBBB;
+            }
+
+        /* ................................. */
+        /*  BOTONES - VISTA ACCOUNT FORM     */
+        /* ................................. */
+
+
+
+        /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+
+        /* ................................. */
+        /*  BOTONES - VISTA OTP              */
+        /* ................................. */
+
+            /* ................................. */
+            /* INICIO : Button Verify            */
+            /* ................................. */
+            .button-verify {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12.8px;
+                position: absolute;
+                width: 308px;
+                height: 40px;
+                left:529px;
+                top: 406px ;
+                right: 529px ;
+                bottom: 292px ;
+                color:#fff;
+                background-color: #BBBBBB;
+                border:none;
+                border-radius: 10px;
+            }
+            .button-verify:hover{
+                color:#fff;
+                background-color:#213F8F;
+            }
+            /* ................................. */
+            /* FIN : Button Verify               */
+            /* ................................. */
+            
+            /* ................................. */
+            /* INICIO : Botón Back 1             */
+            /* ................................. */
+               .button-back1 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 10px;
+                position: absolute;
+                width: 125px;
+                height: 33px;
+                left: 620px;
+                top: 570px ;
+                right: 621px ;
+                bottom: 127px ;
+                color:#fff;
+                background-color: #213F8F;
+                border:none;
+                border-radius: 10px;
+            }
+            .button-back1:hover{
+                color:#fff;
+                background-color: #BBBBBB;
+            }
+            /* ................................. */
+            /* FIN : Botón Back 1                */
+            /* ................................. */
+
+        /* ................................. */
+        /*  BOTONES - VISTA OTP              */
+        /* ................................. */
+
+
+
+        /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+
+        /* ................................. */
+        /*  BOTONES - USA PATRIOT ACT        */
+        /* ................................. */
+
+        /* Los botónes implementados en esta vista, son los mismos implementados en las siguientes vistas:display: display:
+            Vista - Virtue account form (Vista donde se encuentran esencialmente)
+            Vista - Usa patriot act (Vista donde se copia sus estilo).
+            Vista - Usa patriot act-YES (Vista donde se copia sus estilo).
+
+            A continuación se coloca su estilo en comentarios, para que se sepa que estan implementados tambien en esta vista */
+           
+            /* ................................. */
+            /* INICIO : Button back 2            */
+            /* ................................. */
+
+/*             .button-back {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 9.96px;
+                position: absolute;
+                width: 125px;
+                height: 33px;
+                left: 546px;
+                top: 608px ;
+                right: 695px ;
+                bottom: 127px ;
+                color:#fff;
+                background-color: #213F8F;
+                border:none;
+                border-radius: 10px;
+            }
+            .button-back:hover{
+                color:#fff;
+                background-color: #BBBBBB;
+            } */
+
+            /* ................................. */
+            /* FIN : Button back 2               */
+            /* ................................. */
+
+            /* ................................. */
+            /* INICIO : Button continue 2        */
+            /* ................................. */
+
+/*             .button-continue1 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 9.96px;
+                position: absolute;
+                width: 125px;
+                height: 33px;
+                left: 694.7px;
+                top: 608px ;
+                right: 546.3px ;
+                bottom: 127px ;
+                color:#fff;
+                background-color: #213F8F;
+                border:none;
+                border-radius: 10px;
+            }
+            .button-continue1:hover{
+                color:#fff;
+                background-color: #BBBBBB;
+            } */
+
+            /* ................................. */
+            /* FIN : Button continue 2           */
+            /* ................................. */
+
+        /* ................................. */
+        /*  BOTONES - USA PATRIOT ACT        */
+        /* ................................. */
+
+
+
+        /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+
+        /* ................................. */
+        /*  BOTONES - USA PATRIOT ACT- YES   */
+        /* ................................. */
+
+        /* Los botónes implementados en esta vista, son los mismos implementados en las siguientes vistas:display: display:
+            Vista - Virtue account form (Vista donde se encuentran esencialmente)
+            Vista - Usa patriot act (Vista donde se copia sus estilo. 
+
+            A continuación se coloca su estilo en comentarios, para que se sepa que estan implementados tambien en esta vista */
+            
+            /* ................................. */
+            /* INICIO : Button back              */
+            /* ................................. */
+
+/*             .button-back {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 9.96px;
+                position: absolute;
+                width: 125px;
+                height: 33px;
+                left: 546px;
+                top: 608px ;
+                right: 695px ;
+                bottom: 127px ;
+                color:#fff;
+                background-color: #213F8F;
+                border:none;
+                border-radius: 10px;
+            }
+            .button-back:hover{
+                color:#fff;
+                background-color: #BBBBBB;
+            }
+ */
+            /* ................................. */
+            /* FIN : Button back                 */
+            /* ................................. */
+
+            /* ................................. */
+            /* INICIO : Button continue          */
+            /* ................................. */
+      /*       .button-continue1 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 9.96px;
+                position: absolute;
+                width: 125px;
+                height: 33px;
+                left: 694.7px;
+                top: 608px ;
+                right: 546.3px ;
+                bottom: 127px ;
+                color:#fff;
+                background-color: #213F8F;
+                border:none;
+                border-radius: 10px;
+            }
+            .button-continue1:hover{
+                color:#fff;
+                background-color: #BBBBBB;
+            } */
+
+            /* ................................. */
+            /* FIN : Button continue             */
+            /* ................................. */
+
+        /* ................................. */
+        /*  BOTONES - USA PATRIOT ACT- YES   */
+        /* ................................. */
+
+
+        /* ......................................... */
+        /*  BOTONES - USA PATRIOT ACT- YES- Details  */
+        /* ......................................... */
+
+            /* ................................. */
+            /* INICIO : Button save              */
+            /* ................................. */
+            .button-save {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 10px;
+                position: absolute;
+                width: 125px;
+                height: 33px;
+                left: 447px;
+                top: 744px;
+                right: 546.3px ;
+                bottom: 127px ;
+                color:#294397;
+                background-color: #fff;
+                border-radius: 10px;
+                border: solid 0.7px #294397;
+            }
+            .button-save:hover{
+                color:#fff;
+                background-color: #294397;
+            }
+            /* ................................. */
+            /* FIN : Button save                 */
+            /* ................................. */
+
+
+            /* ................................. */
+            /* INICIO : Button back              */
+            /* ................................. */
+                .button-back2 {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 10px;
+                    position: absolute;
+                    width: 125px;
+                    height: 33px;
+                    left: 645px;
+                    top: 744px;
+                    right: 695px ;
+                    bottom: 127px ;
+                    color:#fff;
+                    background-color: #213F8F;
+                    border:none;
+                    border-radius: 10px;
+                }
+                .button-back2:hover{
+                    color:#fff;
+                    background-color: #BBBBBB;
+                }
+
+            /* ................................. */
+            /* FIN : Button back                 */
+            /* ................................. */
+
+            /* ................................. */
+            /* INICIO : Button continue          */
+            /* ................................. */
+                .button-continue2 {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 10px;
+                    position: absolute;
+                    width: 125px;
+                    height: 33px;
+                    left: 793.7px;
+                    top: 744px;
+                    right: 546.3px ;
+                    bottom: 127px ;
+                    color:#fff;
+                    background-color: #213F8F;
+                    border:none;
+                    border-radius: 10px;
+                }
+                .button-continue2:hover{
+                    color:#fff;
+                    background-color: #BBBBBB;
+                }
+
+            /* ................................. */
+            /* FIN : Button continue             */
+            /* ................................. */
+
+        /* ......................................... */
+        /*  BOTONES - USA PATRIOT ACT- YES- Details  */
+        /* ......................................... */
+
+
+
+        
+        /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+        
+        /* ......................................... */
+        /*  BOTONES - ADRESS                         */
+        /* ......................................... */
+        
+            /* Los botónes implementados en esta vista, son los mismos implementados en las siguientes vistas:display: display:
+            Vista - united state person yes - Details (Vista donde se encuentran esencialmente)
+            Vista - Adress(Vista donde se copia sus estilo). 
+
+            A continuación se coloca su estilo en comentarios, para que se sepa que estan implementados tambien en esta vista */
+           
+            /* ................................. */
+            /* INICIO : Button save              */
+            /* ................................. */
+            .button-save {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 10px;
+                position: absolute;
+                width: 125px;
+                height: 33px;
+                left: 447px;
+                top: 744px;
+                right: 546.3px ;
+                bottom: 127px ;
+                color:#294397;
+                background-color: #fff;
+                border-radius: 10px;
+                border: solid 0.7px #294397;
+            }
+            .button-save:hover{
+                color:#fff;
+                background-color: #294397;
+            }
+            /* ................................. */
+            /* FIN : Button save                 */
+            /* ................................. */
+
+
+            /* ................................. */
+            /* INICIO : Button back              */
+            /* ................................. */
+/*                 .button-back2 {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 10px;
+                    position: absolute;
+                    width: 125px;
+                    height: 33px;
+                    left: 645px;
+                    top: 744px;
+                    right: 695px ;
+                    bottom: 127px ;
+                    color:#fff;
+                    background-color: #213F8F;
+                    border:none;
+                    border-radius: 10px;
+                }
+                .button-back2:hover{
+                    color:#fff;
+                    background-color: #BBBBBB;
+                } */
+
+            /* ................................. */
+            /* FIN : Button back                 */
+            /* ................................. */
+
+            /* ................................. */
+            /* INICIO : Button continue          */
+            /* ................................. */
+/*                 .button-continue2 {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 10px;
+                    position: absolute;
+                    width: 125px;
+                    height: 33px;
+                    left: 793.7px;
+                    top: 744px;
+                    right: 546.3px ;
+                    bottom: 127px ;
+                    color:#fff;
+                    background-color: #213F8F;
+                    border:none;
+                    border-radius: 10px;
+                }
+                .button-continue2:hover{
+                    color:#fff;
+                    background-color: #BBBBBB;
+                }
+ */
+            /* ................................. */
+            /* FIN : Button continue             */
+            /* ................................. */
+        /* ......................................... */
+        /*  BOTONES - ADRESS                         */
+        /* ......................................... */
+
+
+
+        /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+
+        /* ......................................... */
+        /*  BOTONES -  ABOUT YOU                     */
+        /* ......................................... */
+
+            /* ................................. */
+            /* INICIO : Button save              */
+            /* ................................. */
+            .button-save2 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12.8px;
+                position: absolute;
+                width: 125px;
+                height: 33px;
+                left: 447px;
+                top: 845px;
+                right: 794px ;
+                bottom: 127px ;
+                color:#294397;
+                background-color: #fff;
+                border-radius: 10px;
+                border: solid 0.7px #294397;
+            }
+            .button-save2:hover{
+                color:#fff;
+                background-color: #294397;
+            }
+            /* ................................. */
+            /* FIN : Button save                 */
+            /* ................................. */
+
+            /* ................................. */
+            /* INICIO : Button back              */
+            /* ................................. */
+            .button-back4 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12.8px;
+                position: absolute;
+                width: 125px;
+                height: 33px;
+                left: 645px;
+                top: 845px;
+                right: 695px ;
+                bottom: 127px ;
+                color:#fff;
+                background-color: #213F8F;
+                border:none;
+                border-radius: 10px;
+            }
+            .button-back4:hover{
+                color:#fff;
+                background-color: #BBBBBB;
+            }
+            /* ................................. */
+            /* FIN : Button back                 */
+            /* ................................. */
+
+            /* ................................ */
+            /* INICIO : Button continue          */
+            /* ................................. */
+            .button-continue4 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12.8px;
+                position: absolute;
+                width: 125px;
+                height: 33px;
+                left: 793.7px;
+                top: 845px;
+                right: 546.3px ;
+                bottom: 127px ;
+                color:#fff;
+                background-color: #213F8F;
+                border:none;
+                border-radius: 10px;
+            }
+            .button-continue4:hover{
+                color:#fff;
+                background-color: #BBBBBB;
+            }
+            /* ................................. */
+            /* FIN : Button continue             */
+            /* ................................. */
+            
+        /* ......................................... */
+        /*  BOTONES -  ABOUT YOU                     */
+        /* ......................................... */
+
+
+
+        /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+
+        /* ......................................... */
+        /*  BOTONES -  ACCOUNT PORPUSE               */
+        /* ......................................... */
+            /* Los botónes implementados en esta vista, son los mismos implementados en las siguientes vistas:display: display:
+            Vista - united state person yes - Details (Vista donde se encuentran esencialmente)
+            Vista - Adress(Vista donde se copia sus estilo). 
+
+            A continuación se coloca su estilo en comentarios, para que se sepa que estan implementados tambien en esta vista */
+           
+            /* ................................. */
+            /* INICIO : Button save              */
+            /* ................................. */
+            .button-save {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 10px;
+                position: absolute;
+                width: 125px;
+                height: 33px;
+                left: 447px;
+                top: 744px;
+                right: 546.3px ;
+                bottom: 127px ;
+                color:#294397;
+                background-color: #fff;
+                border-radius: 10px;
+                border: solid 0.7px #294397;
+            }
+            .button-save:hover{
+                color:#fff;
+                background-color: #294397;
+            }
+            /* ................................. */
+            /* FIN : Button save                 */
+            /* ................................. */
+
+
+            /* ................................. */
+            /* INICIO : Button back              */
+            /* ................................. */
+/*                 .button-back2 {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 10px;
+                    position: absolute;
+                    width: 125px;
+                    height: 33px;
+                    left: 645px;
+                    top: 744px;
+                    right: 695px ;
+                    bottom: 127px ;
+                    color:#fff;
+                    background-color: #213F8F;
+                    border:none;
+                    border-radius: 10px;
+                }
+                .button-back2:hover{
+                    color:#fff;
+                    background-color: #BBBBBB;
+                } */
+
+            /* ................................. */
+            /* FIN : Button back                 */
+            /* ................................. */
+
+            /* ................................. */
+            /* INICIO : Button continue          */
+            /* ................................. */
+/*                 .button-continue2 {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 10px;
+                    position: absolute;
+                    width: 125px;
+                    height: 33px;
+                    left: 793.7px;
+                    top: 744px;
+                    right: 546.3px ;
+                    bottom: 127px ;
+                    color:#fff;
+                    background-color: #213F8F;
+                    border:none;
+                    border-radius: 10px;
+                }
+                .button-continue2:hover{
+                    color:#fff;
+                    background-color: #BBBBBB;
+                }
+ */
+            /* ................................. */
+            /* FIN : Button continue             */
+            /* ................................. */
+        /* ......................................... */
+        /*  BOTONES - ADRESS                         */
+        /* ......................................... */
+
+
+
+        /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+
+        /* ......................................... */
+        /*  BOTONES -  ABOUT YOU                     */
+        /* ......................................... */
+
+            /* ................................. */
+            /* INICIO : Button save              */
+            /* ................................. */
+            .button-save2-2-2 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 10px;
+                position: absolute;
+                width: 125px;
+                height: 33px;
+                left: 447px;
+                top: 608px;
+                right: 794px ;
+                bottom: 127px ;
+                color:#294397;
+                background-color: #fff;
+                border-radius: 10px;
+                border: solid 0.7px #294397;
+            }
+            .button-save2-2-2:hover{
+                color:#fff;
+                background-color: #294397;
+            }
+            /* ................................. */
+            /* FIN : Button save                 */
+            /* ................................. */
+
+            /* ................................. */
+            /* INICIO : Button back              */
+            /* ................................. */
+            .button-back4-2-2 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 10px;
+                position: absolute;
+                width: 125px;
+                height: 33px;
+                left: 645px;
+                top: 608px;
+                right: 695px ;
+                bottom: 127px ;
+                color:#fff;
+                background-color: #213F8F;
+                border:none;
+                border-radius: 10px;
+            }
+            .button-back4-2-2:hover{
+                color:#fff;
+                background-color: #BBBBBB;
+            }
+            /* ................................. */
+            /* FIN : Button back                 */
+            /* ................................. */
+
+            /* ................................ */
+            /* INICIO : Button continue          */
+            /* ................................. */
+            .button-continue4-2-2 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 10px;
+                position: absolute;
+                width: 125px;
+                height: 33px;
+                left: 793.7px;
+                top: 608px;
+                right: 546.3px ;
+                bottom: 127px ;
+                color:#fff;
+                background-color: #213F8F;
+                border:none;
+                border-radius: 10px;
+            }
+            .button-continue4-2-2:hover{
+                color:#fff;
+                background-color: #BBBBBB;
+            }
+            /* ................................. */
+            /* FIN : Button continue             */
+            /* ................................. */
+        /* ......................................... */
+        /*  BOTONES -  ACCOUNT PORPUSE               */
+        /* ......................................... */
+
+        /* ......................................... */
+        /*  BOTONES -  WEALTH                        */
+        /* ......................................... */
+
+         /* ................................. */
+            /* INICIO : Button save              */
+            /* ................................. */
+            .button-save2-2-3 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 10px;
+                position: absolute;
+                width: 125px;
+                height: 33px;
+                left: 447px;
+                top: 768px;
+                right: 794px ;
+                bottom: 127px ;
+                color:#294397;
+                background-color: #fff;
+                border-radius: 10px;
+                border: solid 0.7px #294397;
+            }
+            .button-save2-2-3:hover{
+                color:#fff;
+                background-color: #294397;
+            }
+            /* ................................. */
+            /* FIN : Button save                 */
+            /* ................................. */
+
+            /* ................................. */
+            /* INICIO : Button back              */
+            /* ................................. */
+            .button-back4-2-3 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 10px;
+                position: absolute;
+                width: 125px;
+                height: 33px;
+                left: 645px;
+                top: 768px;
+                right: 695px ;
+                bottom: 127px ;
+                color:#fff;
+                background-color: #213F8F;
+                border:none;
+                border-radius: 10px;
+            }
+            .button-back4-2-3:hover{
+                color:#fff;
+                background-color: #BBBBBB;
+            }
+            /* ................................. */
+            /* FIN : Button back                 */
+            /* ................................. */
+
+            /* ................................ */
+            /* INICIO : Button continue          */
+            /* ................................. */
+            .button-continue4-2-3 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 10px;
+                position: absolute;
+                width: 125px;
+                height: 33px;
+                left: 793.7px;
+                top: 768px;
+                right: 546.3px ;
+                bottom: 127px ;
+                color:#fff;
+                background-color: #213F8F;
+                border:none;
+                border-radius: 10px;
+            }
+            .button-continue4-2-2:hover{
+                color:#fff;
+                background-color: #BBBBBB;
+            }
+            /* ................................. */
+            /* FIN : Button continue             */
+            /* ................................. */
+        
+        /* ......................................... */
+        /*  BOTONES -  WEALTH                        */
+        /* ......................................... */
+
+    /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+    /*                                             FIN BOTONES                                              */
+    /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+
+    /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+    /*                                             INICIO FOOTER´S                                          */
+    /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+    
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+        /*                      INICIO FOOTER - 1 -- ( Dimensiones: Height:768px  Width:1366px )                */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+            /* ................................. */
+            /* INICIO: Lineas multicolor         */
+            /* ................................. */
+            .Lineas-de-colores {
+                width: 966px;
+                height: 2px;
+                overflow-y:inherit;
+                position:absolute;
+                left: 200px;
+                right: 200px;
+                top: 668px;
+                bottom: 98px;
+                flex-grow: 0;
+                margin: 0 0 34px;
+            }
+            /* ................................. */
+            /* FIN: Lineas multicolor            */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Politica de privacidad    */
+            /* ................................. */
+            .Privacy-Policy {
+                width: 69.8px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 200px;
+                right: 1096.2px ;
+                top: 707px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Politica de privacidad       */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Terminos de uso           */
+            /* ................................. */
+            .Terms-of-Use {
+                width: 70.5px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 292.9px;
+                right: 1002.6px ;
+                top: 707px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Terminos de uso           */
+            /* ................................. */
+            
+            /* ................................. */
+            /* INICIO: Decla. de accesibilidad   */
+            /* ................................. */
+            .Accessibility-Statement {
+                width: 113px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 386.4px;
+                right: 866.6px ;
+                top: 707px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Decla. de accesibilidad      */
+            /* ................................. */
+    
+    
+            /* ................................. */
+            /* INICIO: Derechos de autor         */
+            /* ................................. */
+            .Derechos-de-autor {
+                width: 177px;
+                height: 9px;
+                flex-grow: 0;
+                position: absolute;
+                left: 602px;
+                right: 587px ;
+                top: 707px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #4f4f4f;
+            }
+            /* ................................. */
+            /* FIN: Derechos de autor            */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Redes sociales            */
+            /* ................................. */
+    
+                /* Inicio: Instagram  */
+                .instagram {
+                    width: 10.9px;
+                    height: 10.4px;
+                    top: 570px;
+                }
+                .instagram:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group {
+                    position: absolute;
+                    width: 15px; 
+                    height: 15px;
+                    left: 1046px ;
+                    top: 707px ;
+                    right: 308.1px ;
+                    bottom: 48.8px;
+                    overflow: visible;
+                }
+                .ellipse-1 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1042px ;
+                    top: 704px;
+                    right: 303.1px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-1:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: Instagram  */
+    
+    
+                /* Inicio: Facebook  */
+                .facebook {
+                    width: 37px; 
+                    height: 37px;
+                    top: 570px;
+                    position: static;
+                }
+                .facebook:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group2 {
+                    position: absolute; 
+                    width: 15px; 
+                    height: 15px;
+                    left:1072px ;
+                    top: 707px ;
+                    right: 284.1px ;
+                    bottom: 48px;
+                    overflow: visible;
+                }
+                .ellipse-2 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1067.9px ;
+                    top: 704px;
+                    right: 277.2px ;
+                    bottom: 44px ;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                } 
+                /* Fin: Facebook     */
+    
+    
+                /* Inicio: Twitter     */
+                .twitter {
+                    width: 37px; 
+                    height: 37px;
+                    position: static;
+                }
+                .twitter:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group3 {
+                    width: 15px; 
+                    height: 15px;
+                    position: absolute; 
+                    left: 1096.8px ;
+                    top: 707px ;
+                    right: 255.7 ;
+                    bottom: 49.1px;
+                    overflow: visible;
+                }
+                .ellipse-3 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1093.1 ;
+                    top: 704px;
+                    right: 252px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-3:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                } 
+                /* Fin: Twitter     */
+    
+                /* Inicio: WhatsApp     */
+                .whatsapp {
+                    width: 37px; 
+                    height: 37px;
+                    top: 575px;
+                    position: static;
+                }
+                .whatsapp:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group4 {
+                    position: absolute;
+                    width: 15px; 
+                    height: 15px; 
+                    left: 1123.4px ;
+                    top: 707px ;
+                    right: 230.7px ;
+                    bottom: 48.8px;
+                    overflow: visible;
+    
+                }
+                .ellipse-4 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1119px;
+                    top: 704px;
+                    right: 226.1px;
+                    bottom: 44px ;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: WhatsApp     */
+    
+    
+                /* Inicio: LinkedIn     */
+                .linkedin {
+                    width: 29px; 
+                    height: 29px;
+                    top: 575px;
+                    position: static;
+                }
+                .linkedin:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group5 {
+                    position: absolute; 
+                    width: 15px; 
+                    height: 15px;
+                    left: 1150.1 ;
+                    top: 707px ;
+                    right: 205px ;
+                    bottom: 49.5px;
+                    overflow: visible;
+                }
+                .ellipse-5 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    right: 200.2px;
+                    left: 1144.9;
+                    top: 704px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-5:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: LinkedIn     */
+    
+            /* ................................. */
+            /* FIN: Redes sociales               */
+            /* ................................. */
+    
+    
+    
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+        /*                      FIN FOOTER - 1 -- ( Dimensiones: Height:768px  Width:1366px )                   */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+
+
+        /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+
+
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+        /*                   INICIO FOOTER - 2 -- ( Dimensiones: Height:904px  Width:1366px )                   */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+            
+            /* ................................. */
+            /* INICIO: Lineas multicolor         */
+            /* ................................. */
+            .Lineas-de-colores-2 {
+                width: 966px;
+                height: 2px;
+                overflow-y:inherit;
+                position:absolute;
+                left: 200px;
+                right: 200px;
+                top: 804px;
+                bottom: 98px;
+                flex-grow: 0;
+                margin: 0 0 34px;
+            }
+            /* ................................. */
+            /* FIN: Lineas multicolor            */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Politica de privacidad    */
+            /* ................................. */
+            .Privacy-Policy-2 {
+                width: 69.8px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 200px;
+                right: 1096.2px ;
+                top: 843px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Politica de privacidad       */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Terminos de uso           */
+            /* ................................. */
+            .Terms-of-Use-2 {
+                width: 70.5px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 292.9px;
+                right: 1002.6px ;
+                top: 843px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Terminos de uso           */
+            /* ................................. */
+            
+            /* ................................. */
+            /* INICIO: Decla. de accesibilidad   */
+            /* ................................. */
+            .Accessibility-Statement-2 {
+                width: 113px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 386.4px;
+                right: 866.6px ;
+                top: 843px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Decla. de accesibilidad      */
+            /* ................................. */
+    
+    
+            /* ................................. */
+            /* INICIO: Derechos de autor         */
+            /* ................................. */
+            .Derechos-de-autor-2 {
+                width: 177px;
+                height: 9px;
+                flex-grow: 0;
+                position: absolute;
+                left: 602px;
+                right: 587px ;
+                top: 843px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #4f4f4f;
+            }
+            /* ................................. */
+            /* FIN: Derechos de autor            */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Redes sociales            */
+            /* ................................. */
+    
+                /* Inicio: Instagram  */
+                .instagram2 {
+                    width: 10.9px;
+                    height: 10.4px;
+                    top: 570px;
+                }
+                .instagram2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group1-2 {
+                    position: absolute;
+                    width: 15px; 
+                    height: 15px;
+                    left: 1046px ;
+                    top: 843px ;
+                    right: 308.1px ;
+                    bottom: 48.8px;
+                    overflow: visible;
+                }
+                .ellipse-1-2 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1042px ;
+                    top: 840px;
+                    right: 303.1px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-1-2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: Instagram  */
+    
+    
+                /* Inicio: Facebook  */
+                .facebook2 {
+                    width: 37px; 
+                    height: 37px;
+                    top: 570px;
+                    position: static;
+                }
+                .facebook2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group2-2 {
+                    position: absolute; 
+                    width: 15px; 
+                    height: 15px;
+                    left:1072px ;
+                    top: 843px ;
+                    right: 284.1px ;
+                    bottom: 48px;
+                    overflow: visible;
+                }
+                .ellipse-2-2 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1067.9px ;
+                    top: 840px;
+                    right: 277.2px ;
+                    bottom: 44px ;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-2-2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                } 
+                /* Fin: Facebook     */
+    
+    
+                /* Inicio: Twitter     */
+                .twitter2 {
+                    width: 37px; 
+                    height: 37px;
+                    position: static;
+                }
+                .twitter2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group3-2 {
+                    width: 15px; 
+                    height: 15px;
+                    position: absolute; 
+                    left: 1096.8px ;
+                    top: 843px ;
+                    right: 255.7 ;
+                    bottom: 49.1px;
+                    overflow: visible;
+                }
+                .ellipse-3-2 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1093.1 ;
+                    top: 840px;
+                    right: 252px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-3-2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                } 
+                /* Fin: Twitter     */
+    
+                /* Inicio: WhatsApp     */
+                .whatsapp2 {
+                    width: 37px; 
+                    height: 37px;
+                    top: 575px;
+                    position: static;
+                }
+                .whatsapp2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group4-2 {
+                    position: absolute;
+                    width: 15px; 
+                    height: 15px; 
+                    left: 1123.4px ;
+                    top: 843px ;
+                    right: 230.7px ;
+                    bottom: 48.8px;
+                    overflow: visible;
+    
+                }
+                .ellipse-4-2 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1119px;
+                    top: 840px;
+                    right: 226.1px;
+                    bottom: 44px ;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-4-2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: WhatsApp     */
+    
+    
+                /* Inicio: LinkedIn     */
+                .linkedin2 {
+                    width: 29px; 
+                    height: 29px;
+                    top: 575px;
+                    position: static;
+                }
+                .linkedin2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group5-2 {
+                    position: absolute; 
+                    width: 15px; 
+                    height: 15px;
+                    left: 1150.1 ;
+                    top: 843px ;
+                    right: 205px ;
+                    bottom: 49.5px;
+                    overflow: visible;
+                }
+                .ellipse-5-2 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    right: 200.2px;
+                    left: 1144.9;
+                    top: 840px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-5-2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: LinkedIn     */
+    
+            /* ................................. */
+            /* FIN: Redes sociales               */
+            /* ................................. */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+        /*                    FIN FOOTER - 2 -- ( Dimensiones: Height:904px  Width:1366px )                     */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+
+
+        /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+
+
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+        /*                   INICIO FOOTER - 3 -- ( Dimensiones: Height:928px  Width:1366px )                   */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+            
+            /* ................................. */
+            /* INICIO: Lineas multicolor         */
+            /* ................................. */
+            .Lineas-de-colores-3 {
+                width: 966px;
+                height: 2px;
+                overflow-y:inherit;
+                position:absolute;
+                left: 200px;
+                right: 200px;
+                top: 828px;
+                bottom: 98px;
+                flex-grow: 0;
+                margin: 0 0 34px;
+            }
+            /* ................................. */
+            /* FIN: Lineas multicolor            */
+            /* ................................. */
+
+            /* ................................. */
+            /* INICIO: Politica de privacidad    */
+            /* ................................. */
+            .Privacy-Policy-3 {
+                width: 69.8px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 200px;
+                right: 1096.2px ;
+                top: 867px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Politica de privacidad       */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Terminos de uso           */
+            /* ................................. */
+            .Terms-of-Use-3 {
+                width: 70.5px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 292.9px;
+                right: 1002.6px ;
+                top: 867px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Terminos de uso           */
+            /* ................................. */
+            
+            /* ................................. */
+            /* INICIO: Decla. de accesibilidad   */
+            /* ................................. */
+            .Accessibility-Statement-3 {
+                width: 113px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 386.4px;
+                right: 866.6px ;
+                top: 867px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Decla. de accesibilidad      */
+            /* ................................. */
+    
+    
+            /* ................................. */
+            /* INICIO: Derechos de autor         */
+            /* ................................. */
+            .Derechos-de-autor-3 {
+                width: 177px;
+                height: 9px;
+                flex-grow: 0;
+                position: absolute;
+                left: 602px;
+                right: 587px ;
+                top: 867px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #4f4f4f;
+            }
+            /* ................................. */
+            /* FIN: Derechos de autor            */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Redes sociales            */
+            /* ................................. */
+    
+                /* Inicio: Instagram  */
+                .instagram3 {
+                    width: 10.9px;
+                    height: 10.4px;
+                    top: 570px;
+                }
+                .instagram3:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group1-3 {
+                    position: absolute;
+                    width: 15px; 
+                    height: 15px;
+                    left: 1046px ;
+                    top: 867px ;
+                    right: 308.1px ;
+                    bottom: 48.8px;
+                    overflow: visible;
+                }
+                .ellipse-1-3 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1042px ;
+                    top: 864px;
+                    right: 303.1px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-1-3:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: Instagram  */
+    
+    
+                /* Inicio: Facebook  */
+                .facebook3 {
+                    width: 37px; 
+                    height: 37px;
+                    top: 570px;
+                    position: static;
+                }
+                .facebook3:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group2-3 {
+                    position: absolute; 
+                    width: 15px; 
+                    height: 15px;
+                    left:1072px ;
+                    top: 867px ;
+                    right: 284.1px ;
+                    bottom: 48px;
+                    overflow: visible;
+                }
+                .ellipse-2-3 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1067.9px ;
+                    top: 864px;
+                    right: 277.2px ;
+                    bottom: 44px ;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-2-3:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                } 
+                /* Fin: Facebook     */
+    
+    
+                /* Inicio: Twitter     */
+                .twitter3 {
+                    width: 37px; 
+                    height: 37px;
+                    position: static;
+                }
+                .twitter3:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group3-3 {
+                    width: 15px; 
+                    height: 15px;
+                    position: absolute; 
+                    left: 1096.8px ;
+                    top: 867px;
+                    right: 255.7 ;
+                    bottom: 49.1px;
+                    overflow: visible;
+                }
+                .ellipse-3-3 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1093.1 ;
+                    top: 864px;
+                    right: 252px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-3-3:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                } 
+                /* Fin: Twitter     */
+    
+                /* Inicio: WhatsApp     */
+                .whatsapp3 {
+                    width: 37px; 
+                    height: 37px;
+                    top: 575px;
+                    position: static;
+                }
+                .whatsapp3:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group4-3 {
+                    position: absolute;
+                    width: 15px; 
+                    height: 15px; 
+                    left: 1123.4px ;
+                    top: 867px ;
+                    right: 230.7px ;
+                    bottom: 48.8px;
+                    overflow: visible;
+    
+                }
+                .ellipse-4-3 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1119px;
+                    top: 864px;
+                    right: 226.1px;
+                    bottom: 44px ;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-4-3:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: WhatsApp     */
+    
+    
+                /* Inicio: LinkedIn     */
+                .linkedin3 {
+                    width: 29px; 
+                    height: 29px;
+                    top: 575px;
+                    position: static;
+                }
+                .linkedin3:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group5-3 {
+                    position: absolute; 
+                    width: 15px; 
+                    height: 15px;
+                    left: 1150.1 ;
+                    top: 867px ;
+                    right: 205px ;
+                    bottom: 49.5px;
+                    overflow: visible;
+                }
+                .ellipse-5-3 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    right: 200.2px;
+                    left: 1144.9;
+                    top: 864px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-5-3:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: LinkedIn     */
+    
+            /* ................................. */
+            /* FIN: Redes sociales               */
+            /* ................................. */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+        /*                     FIN FOOTER - 3 -- ( Dimensiones: Height:928px  Width:1366px )                    */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+
+
+        /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+
+
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+        /*                   INICIO FOOTER - 4 -- ( Dimensiones: Height:1005px  Width:1366px )                  */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+            
+            /* ................................. */
+            /* INICIO: Lineas multicolor         */
+            /* ................................. */
+            .Lineas-de-colores-4 {
+                width: 966px;
+                height: 2px;
+                overflow-y:inherit;
+                position:absolute;
+                left: 200px;
+                right: 200px;
+                top: 905px;
+                bottom: 98px;
+                flex-grow: 0;
+                margin: 0 0 34px;
+            }
+            /* ................................. */
+            /* FIN: Lineas multicolor            */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Politica de privacidad    */
+            /* ................................. */
+            .Privacy-Policy-4 {
+                width: 69.8px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 200px;
+                right: 1096.2px ;
+                top: 944px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Politica de privacidad       */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Terminos de uso           */
+            /* ................................. */
+            .Terms-of-Use-4 {
+                width: 70.5px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 292.9px;
+                right: 1002.6px ;
+                top: 944px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Terminos de uso           */
+            /* ................................. */
+            
+            /* ................................. */
+            /* INICIO: Decla. de accesibilidad   */
+            /* ................................. */
+            .Accessibility-Statement-4 {
+                width: 113px;
+                height: 14px;
+                flex-grow: 0;
+                position: absolute;
+                left: 386.4px;
+                right: 866.6px ;
+                top: 944px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #294397;
+            }
+            /* ................................. */
+            /* FIN: Decla. de accesibilidad      */
+            /* ................................. */
+    
+    
+            /* ................................. */
+            /* INICIO: Derechos de autor         */
+            /* ................................. */
+            .Derechos-de-autor-4 {
+                width: 177px;
+                height: 9px;
+                flex-grow: 0;
+                position: absolute;
+                left: 602px;
+                right: 587px ;
+                top: 944px;
+                bottom: 47px;
+                font-family: Poppins;
+                font-size: 9.3px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #4f4f4f;
+            }
+            /* ................................. */
+            /* FIN: Derechos de autor            */
+            /* ................................. */
+    
+            /* ................................. */
+            /* INICIO: Redes sociales            */
+            /* ................................. */
+    
+                /* Inicio: Instagram  */
+                .instagram4 {
+                    width: 10.9px;
+                    height: 10.4px;
+                    top: 570px;
+                }
+                .instagram4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group1-4 {
+                    position: absolute;
+                    width: 15px; 
+                    height: 15px;
+                    left: 1046px ;
+                    top: 944px ;
+                    right: 308.1px ;
+                    bottom: 48.8px;
+                    overflow: visible;
+                }
+                .ellipse-1-4 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1042px ;
+                    top: 941px;
+                    right: 303.1px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-1-4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: Instagram  */
+    
+    
+                /* Inicio: Facebook  */
+                .facebook4 {
+                    width: 37px; 
+                    height: 37px;
+                    top: 570px;
+                    position: static;
+                }
+                .facebook4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group2-4 {
+                    position: absolute; 
+                    width: 15px; 
+                    height: 15px;
+                    left:1072px ;
+                    top: 944px ;
+                    right: 284.1px ;
+                    bottom: 48px;
+                    overflow: visible;
+                }
+                .ellipse-2-4 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1067.9px ;
+                    top: 941px;
+                    right: 277.2px ;
+                    bottom: 44px ;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-2-4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                } 
+                /* Fin: Facebook     */
+    
+    
+                /* Inicio: Twitter     */
+                .twitter4 {
+                    width: 37px; 
+                    height: 37px;
+                    position: static;
+                }
+                .twitter4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group3-4 {
+                    width: 15px; 
+                    height: 15px;
+                    position: absolute; 
+                    left: 1096.8px ;
+                    top: 944px ;
+                    right: 255.7 ;
+                    bottom: 49.1px;
+                    overflow: visible;
+                }
+                .ellipse-3-4 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1093.1 ;
+                    top: 941px;
+                    right: 252px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-3-4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                } 
+                /* Fin: Twitter     */
+    
+                /* Inicio: WhatsApp     */
+                .whatsapp4 {
+                    width: 37px; 
+                    height: 37px;
+                    top: 575px;
+                    position: static;
+                }
+                .whatsapp4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group4-4 {
+                    position: absolute;
+                    width: 15px; 
+                    height: 15px; 
+                    left: 1123.4px ;
+                    top: 944px ;
+                    right: 230.7px ;
+                    bottom: 48.8px;
+                    overflow: visible;
+    
+                }
+                .ellipse-4-4 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    left: 1119px;
+                    top: 941px;
+                    right: 226.1px;
+                    bottom: 44px ;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-4-2:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: WhatsApp     */
+    
+    
+                /* Inicio: LinkedIn     */
+                .linkedin4 {
+                    width: 29px; 
+                    height: 29px;
+                    top: 575px;
+                    position: static;
+                }
+                .linkedin4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                .group5-4 {
+                    position: absolute; 
+                    width: 15px; 
+                    height: 15px;
+                    left: 1150.1 ;
+                    top: 944px ;
+                    right: 205px ;
+                    bottom: 49.5px;
+                    overflow: visible;
+                }
+                .ellipse-5-4 {
+                    width: 20.9px;
+                    height: 20px;
+                    position: absolute; 
+                    right: 200.2px;
+                    left: 1144.9;
+                    top: 941px;
+                    bottom: 44px;
+                    border-radius: 50%;
+                    border: solid #bbbbbb; 
+                    border-width: 1px;
+                }
+                .ellipse-5-4:hover{
+                    opacity: 0.50;
+                    -moz-opacity: .50;
+                    filter:alpha (opacity=50);
+                }
+                /* Fin: LinkedIn     */
+    
+            /* ................................. */
+            /* FIN: Redes sociales               */
+            /* ................................. */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+        /*                     FIN FOOTER - 4 -- ( Dimensiones: Height:1005px  Width:1366px )                   */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+
+
+        /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+
+
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+        /*                   INICIO FOOTER - 5 -- ( Dimensiones: Height:1164px  Width:1366px )                  */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+        /*                     FIN FOOTER - 5 -- ( Dimensiones: Height:1164px  Width:1366px )                   */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+
+    /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+    /*                                                FIN FOOTER´S                                          */
+    /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+
+
+    .span-stepnumber {
+        width: 111px;
+        height: 73px;
+        flex-grow: 0;
+        font-family: Poppins;
+        position: absolute;
+        left:186px;
+        top:235px;
+        font-size: 60px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
+        text-align: center;
+        color: #294397;
+      }
+
+      .span-stepnumber2 {
+        width: 79px;
+        height: 41px;
+        flex-grow: 0;
+        font-family: Poppins;
+        position: absolute;
+        left:265px;
+        top:270px;
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
+        text-align: center;
+        color: #bbb;
+      }
+
+      .Tell-us-about-yourself2 {
+        width: 227px;
+        height: 18px;
+        flex-grow: 0;
+        margin: 0 51px 35px 0;
+        font-family: Poppins;
+        position: absolute;
+        left:196px;
+        top:350px;
+        font-size: 15px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
+        text-align: left;
+        color: #294397;
+      }
+      .Tell-us-about-yourself {
+        width: 227px;
+        height: 18px;
+        flex-grow: 0;
+        margin: 0 51px 35px 0;
+        font-family: Poppins;
+        position: absolute;
+        left:196px;
+        top:350px;
+        font-size: 15px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
+        text-align: left;
+        color: #bbb;
+      }
+
+      .Tell-us-where-do-you-live2 {
+        width: 251px;
+        height: 18px;
+        flex-grow: 0;
+        margin: 35px 27px 35px 0;
+        font-family: Poppins;
+        position: absolute;
+        left:196px;
+        top:345px;
+        font-size: 15px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
+        text-align: left;
+        color: #bbb;
+      }
+
+      .Tell-us-where-do-you-live {
+        width: 251px;
+        height: 18px;
+        flex-grow: 0;
+        margin: 35px 27px 35px 0;
+        font-family: Poppins;
+        position: absolute;
+        left:196px;
+        top:345px;
+        font-size: 15px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
+        text-align: left;
+        color:#294397;
+      }
+
+      .Tell-us-what-do-you-do {
+        width: 250px;
+        height: 18px;
+        flex-grow: 0;
+        margin: 35px 28px 35px 0;
+        font-family: Poppins;
+        position: absolute;
+        left:196px;
+        top:375px;
+        font-size: 15px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
+        text-align: left;
+        color: #294397;
+      }
+      .Tell-us-what-do-you-do2 {
+        width: 250px;
+        height: 18px;
+        flex-grow: 0;
+        margin: 35px 28px 35px 0;
+        font-family: Poppins;
+        position: absolute;
+        left:196px;
+        top:375px;
+        font-size: 15px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
+        text-align: left;
+        color: #bbb;
+      }
+
+      .Help-us-to-serve-you-better2 {
+        width: 278px;
+        height: 18px;
+        flex-grow: 0;
+        margin: 35px 0 0;
+        font-family: Poppins;
+        position: absolute;
+        left:196px;
+        top:405px;
+        font-size: 15px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
+        text-align: left;
+        color: #bbb;
+      }
+      .Help-us-to-serve-you-better {
+        width: 278px;
+        height: 18px;
+        flex-grow: 0;
+        margin: 35px 0 0;
+        font-family: Poppins;
+        position: absolute;
+        left:196px;
+        top:405px;
+        font-size: 15px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
+        text-align: left;
+        color: #294397;
+      }
+
+
+                /* ................................. */
+                /* INICIO : Rectangle Step 3         */
+                /* ................................. */
+
+                    /* Inicio: Rectangle 3 - Step 3 */
+                    .Step3-3 {
+                        width: 62px;
+                        height: 6px;
+                        flex-grow: 0;
+                        position: absolute;
+                        left: 693px;
+                        top: 127px ;
+                        right: 611px ;
+                        bottom: 635px ;
+                        border-radius: 1px;
+                        background-color:  #294397;
+                    }
+                    /* Fin: Rectangle 3 - Step 3 */
+
+                /* ................................. */
+                /* FIN : Rectangle Step 3            */
+                /* ................................. */
+
+                        /* ........................................ */
+                        /* INICIO : Ocupation - Label                */
+                        /* ......................................... */
+                        .Ocupation{
+                            width: 108.9px;
+                            height: 16.9px;
+                            flex-grow: 0;
+                            position: absolute;
+                            left: 451.3px;
+                            right: 806px;
+                            top: 246px;
+                            bottom: 742.2px;
+                            font-family: Poppins;
+                            font-size: 9.2px;
+                            font-weight: 500;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: normal;
+                            letter-spacing: normal;
+                            text-align: left;
+                            color: #454545;
+                        }
+                        /* ........................................ */
+                        /* FIN : Ocupation - Label                   */
+                        /* ......................................... */
+
+                        /* ................................. */
+                        /* INICIO : Ocupation  - Select      */
+                        /* ................................. */
+                        .Ocupationselect {
+                            width: 227px;
+                            height: 33.4px;
+                            flex-grow: 0;
+                            position:absolute;
+                            left: 447px;
+                            right: 693px;
+                            top: 269px;
+                            bottom: 702px;
+                            border-radius: 7.1px;
+                            border: solid 0.7px #bbb;
+                            background-color: #fff;
+                            font-family: Poppins;
+                            font-size: 11px;
+                        }
+                        .Ocupationselect:focus{
+                            outline:none;
+                            border-color: #213F8F;
+                        }
+                        /* ................................. */
+                        /* FIN : Ocupation  - Select         */
+                        /* ................................. */
+
+                        /* ........................................ */
+                        /* INICIO : Ocupation Sector - Label         */
+                        /* ......................................... */
+                        .Occupation-Sector{
+                            width: 108.9px;
+                            height: 16.9px;
+                            flex-grow: 0;
+                            position: absolute;
+                            left: 698.3px;
+                            right: 559px;
+                            top: 246px;
+                            bottom: 742.2px;
+                            font-family: Poppins;
+                            font-size: 9.2px;
+                            font-weight: 500;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: normal;
+                            letter-spacing: normal;
+                            text-align: left;
+                            color: #454545;
+                        }
+                        /* ........................................ */
+                        /* FIN : Ocupation - Label                   */
+                        /* ......................................... */
+
+                        /* .................................. */
+                        /* INICIO : Ocupation Sector - Select */
+                        /* .................................. */
+                        .Ocupation-sector-select {
+                            width: 227px;
+                            height: 33.4px;
+                            flex-grow: 0;
+                            position:absolute;
+                            left: 694px;
+                            right: 693px;
+                            top: 269px;
+                            bottom: 702px;
+                            border-radius: 7.1px;
+                            border: solid 0.7px #bbb;
+                            background-color: #fff;
+                            font-family: Poppins;
+                            font-size: 11px;
+                        }
+                        .Ocupation-sector-select:focus{
+                            outline:none;
+                            border-color: #213F8F;
+                        }
+                        /* ................................. */
+                        /* FIN : Ocupation Sector  - Select  */
+                        /* ................................. */
+
+                        /* ........................................ */
+                        /* INICIO : Annual income - Label            */
+                        /* ......................................... */
+                        .Annual-income{
+                            width: 108.9px;
+                            height: 16.9px;
+                            flex-grow: 0;
+                            position: absolute;
+                            left: 451.3px;
+                            right: 559px;
+                            top: 316px;
+                            bottom: 672.2px;
+                            font-family: Poppins;
+                            font-size: 9.2px;
+                            font-weight: 500;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: normal;
+                            letter-spacing: normal;
+                            text-align: left;
+                            color: #454545;
+                        }
+                        /* ........................................ */
+                        /* FIN : Annual income - Label              */
+                        /* ........................................ */
+
+                        /* ......................................... */
+                        /* INICIO : Annual income - Input             */
+                        /* ......................................... */
+                        .Input11 {
+                            width: 226px;
+                            height: 34px;
+                            flex-grow: 0;
+                            position: absolute;
+                            left: 447px;
+                            right: 693px;
+                            top: 339px;
+                            bottom: 632px;
+                            border-radius: 7.1px;
+                            border: solid 0.7px #bbb;
+                            background-color: #fff;
+                            font-family: Poppins;
+                            font-size: 12.8px;
+                            font-weight: normal;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 1.2;
+                            letter-spacing: normal;
+                            text-align:justify;
+                            color: #454545;
+                        }
+                        .Input11:focus{
+                            outline:none;
+                            border-color: #213F8F;
+                        }
+                        /* ......................................... */
+                        /* FIN : Annual income - Input               */
+                        /* ......................................... */
+
+                        /* ........................................ */
+                        /* INICIO : Annual income - Label            */
+                        /* ......................................... */
+                        .Employed{
+                            width: 158.9px;
+                            height: 16.9px;
+                            flex-grow: 0;
+                            position: absolute;
+                            left: 698.3px;
+                            right: 559px;
+                            top: 316px;
+                            bottom: 672.2px;
+                            font-family: Poppins;
+                            font-size: 9.2px;
+                            font-weight: 500;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: normal;
+                            letter-spacing: normal;
+                            text-align: left;
+                            color: #454545;
+                        }
+                        /* ........................................ */
+                        /* FIN : Annual income - Label              */
+                        /* ........................................ */
+
+                        /* ......................................... */
+                        /* INICIO : Annual income - Input             */
+                        /* ......................................... */
+                        .Input12 {
+                            width: 226px;
+                            height: 34px;
+                            flex-grow: 0;
+                            position: absolute;
+                            left: 694px;
+                            right: 446px;
+                            top: 339px;
+                            bottom: 632px;
+                            border-radius: 7.1px;
+                            border: solid 0.7px #bbb;
+                            background-color: #BBB;
+                            font-family: Poppins;
+                            font-size: 12.8px;
+                            font-weight: normal;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 1.2;
+                            letter-spacing: normal;
+                            text-align:justify;
+                            color: #454545;
+                        }
+                        .Input12:focus{
+                            outline:none;
+                            border-color: #BBB;
+                        }
+                        /* ......................................... */
+                        /* FIN : Annual income - Input               */
+                        /* ......................................... */
+
+                        /* ........................................ */
+                        /* INICIO : About you words - Label         */
+                        /* ......................................... */
+                        .About-you-words{
+                            width: 211.9px;
+                            height: 17px;
+                            flex-grow: 0;
+                            position: absolute;
+                            left: 451.3px;
+                            right: 702.9px;
+                            top: 387px;
+                            bottom: 601px;
+                            font-family: Poppins;
+                            font-size: 9.2px;
+                            font-weight: 500;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: normal;
+                            letter-spacing: normal;
+                            text-align: left;
+                            color: #454545;
+                        }
+                        /* ........................................ */
+                        /* FIN : About you words - Label            */
+                        /* ........................................ */
+
+                        /* ......................................... */
+                        /* INICIO : About you words - input          */
+                        /* ......................................... */
+                        .Input13 {
+                            width: 472px;
+                            height: 105px;
+                            flex-grow: 0;
+                            position: absolute;
+                            left: 447px;
+                            right: 447px;
+                            top: 410px;
+                            bottom: 490px;
+                            border-radius: 7.1px;
+                            border: solid 0.7px #bbb;
+                            background-color: #FFF;
+                            font-family: Poppins;
+                            font-size: 12.8px;
+                            font-weight: normal;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 1.2;
+                            letter-spacing: normal;
+                            text-align:justify;
+                            color: #454545;
+                        }
+                        .Input13:focus{
+                            outline:none;
+                            border-color: #BBB;
+                        }
+                        /* ......................................... */
+                        /* FIN : About you words - input             */
+                        /* ......................................... */
+
+                         /* ........................................ */
+                        /* INICIO : Limite-caracteres - Label        */
+                        /* ......................................... */
+                        .Limite-caracteres{
+                            width: 211.9px;
+                            height: 17px;
+                            flex-grow: 0;
+                            position: absolute;
+                            left: 451.3px;
+                            right: 702.9px;
+                            top: 522px;
+                            bottom: 466px;
+                            font-family: Poppins;
+                            font-size: 9.2px;
+                            font-weight: 500;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: normal;
+                            letter-spacing: normal;
+                            text-align: left;
+                            color: #bbb;
+                        }
+                        /* ........................................ */
+                        /* FIN : Limite-caracteres - Label          */
+                        /* ........................................ */
+
+                /* ............................................... */
+                /* INICIO : Political exposure disclosure - Title  */
+                /* ............................................... */
+                .Political-exposure-title {
+                    width: 226px;
+                    height: 11px;
+                    flex-grow: 0;
+                    position: absolute;
+                    left:447px;
+                    top: 558px ;
+                    right: 693px ;
+                    bottom: 436px ;
+                    font-family: Poppins;
+                    font-size: 12.8px;
+                    font-weight: 600;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #294397;
+                  }
+                /* ............................................ */
+                /* FIN : Political exposure disclosure - Title  */
+                /* ............................................ */
+
+                /* ............................................ */
+                /* INICIO : Political exposure disclosure - M1  */
+                /* ............................................ */
+                .Political-exposure-m1 {
+                    width: 473px;
+                    height: 147px;
+                    flex-grow: 0;
+                    position: absolute;
+                    left:447px;
+                    top: 583px ;
+                    right: 446px ;
+                    bottom: 275px ;
+                    font-family: Poppins;
+                    font-size: 12.8px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.2;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #454545;
+                }
+
+                /* ............................................ */
+                /* FIN : Political exposure disclosure - M1     */
+                /* ............................................ */
+
+                /* ............................................ */
+                /* INICIO : Political exposure disclosure - M2  */
+                /* ............................................ */
+                .Political-exposure-m2 {
+                    font-weight: 600;
+                    color: #294397;
+                }
+                /* ............................................ */
+                /* FIN : Political exposure disclosure - M2     */
+                /* ............................................ */
+
+                
+        /* ................................. */
+        /* Inicio: Option yes - radio button */
+        /* ................................. */
+        .input53[type="radio"]{
+            display: none;
+          }
+          .input53[type="radio"] + label span {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background: transparent;
+            vertical-align: middle;
+            border: 2px solid  #294397;
+            border-radius: 50%;
+            padding: 2px;
+            margin:0 5px;
+          }
+          .input53[type="radio"]:checked + label span {
+            width: 10px;
+            height: 10px;
+            background:  #294397;
+            background-clip: content-box;
+          } 
+
+        .Yes53 {
+            position: absolute;
+            left: 464px;
+            right: 848.7px;
+            top: 762.8px;
+            bottom: 231.5px;
+            width: 52.9px;
+            height: 10.6px;
+            flex-grow: 0;
+            font-family: Poppins;
+            font-size: 12.8px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1;
+            letter-spacing: normal;
+            text-align: center;
+            color: #294397;
+        }
+        /* ................................. */
+        /* Fin: Option yes - radio button    */
+        /* ................................. */
+
+        /* ................................. */
+        /* Inicio: Option no - radio button  */
+        /* ................................. */
+        .input54[type="radio"]{
+            display: none;
+            }
+            .input21[type="radio"] + label span {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background: transparent;
+            vertical-align: middle;
+            border: 2px solid  #294397;
+            border-radius: 50%;
+            padding: 2px;
+            margin:0 5px;
+            }
+            .input21[type="radio"]:checked + label span {
+            width: 10px;
+            height: 10px;
+            background:  #294397;
+            background-clip: content-box;
+            } 
+        .No54 {
+            position: absolute;
+            left: 710.1;
+            right: 694.2px;
+            top: 430px;
+            bottom: 393.5px;
+            width: 52.9px;
+            height: 10.6px;
+            flex-grow: 0;
+            margin: 2.8px 0 3.5px 16.9px;
+            font-family: Poppins;
+            font-size: 12.8px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1;
+            letter-spacing: normal;
+            text-align: center;
+            color: #294397;
+        }
+        /* ................................. */
+        /* Fin: Option no - radio button     */
+        /* ................................. */
+                /* ............................................ */
+                /* INICIO : Checkbutton - Yes                   */
+                /* ............................................ */
+                .input14[type="radio"]{
+                    display: none;
+                  }
+                  .input14[type="radio"] + label span {
+                    display: inline-block;
+                    width: 10px;
+                    height: 10px;
+                    background: transparent;
+                    vertical-align: middle;
+                    border: 2px solid  #294397;
+                    border-radius: 50%;
+                    padding: 2px;
+                    margin:0 5px;
+                  }
+                  .input14[type="radio"]:checked + label span {
+                    width: 10px;
+                    height: 10px;
+                    background:  #294397;
+                    background-clip: content-box;
+                  } 
+                .Yes1 {
+                    position: absolute;
+                    left: 464px;
+                    right: 848.7px;
+                    top: 762.8px;
+                    bottom: 231.5px;
+                    width: 52.9px;
+                    height: 10.6px;
+                    flex-grow: 0;
+                    font-family: Poppins;
+                    font-size: 12.8px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: #294397;
+                }
+                /* ............................................ */
+                /* FIN : Checkbutton - Yes                      */
+                /* ............................................ */
+
+                /* ............................................ */
+                /* INICIO : Checkbutton - No                    */
+                /* ............................................ */
+
+                .input15[type="radio"]{
+                    display: none;
+                  }
+                  .input15[type="radio"] + label span {
+                    display: inline-block;
+                    width: 10px;
+                    height: 10px;
+                    background: transparent;
+                    vertical-align: middle;
+                    border: 2px solid  #294397;
+                    border-radius: 50%;
+                    padding: 2px;
+                    margin:0 5px;
+                  }
+                  .input15[type="radio"]:checked + label span {
+                    width: 10px;
+                    height: 10px;
+                    background:  #294397;
+                    background-clip: content-box;
+                  }  
+
+                  .input15[type="radio"]{
+                    display: none;
+                  }
+                  .input15[type="radio"] + label span {
+                    display: inline-block;
+                    width: 10px;
+                    height: 10px;
+                    background: transparent;
+                    vertical-align: middle;
+                    border: 2px solid  #294397;
+                    border-radius: 50%;
+                    padding: 2px;
+                    margin:0 5px;
+                  }
+                  .input15[type="radio"]:checked + label span {
+                    width: 10px;
+                    height: 10px;
+                    background:  #294397;
+                    background-clip: content-box;
+                  }  
+                .No1 {
+                    position: absolute;
+                    left: 558.7;
+                    right: 755px;
+                    top: 762.8px;
+                    bottom: 231.5px;
+                    width: 52.9px;
+                    height: 10.6px;
+                    flex-grow: 0;
+                    margin: 2.8px 0 3.5px 16.9px;
+                    font-family: Poppins;
+                    font-size: 12.8px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: #294397;
+                }
+                /* ............................................ */
+                /* FIN : Checkbutton - No                       */
+                /* ............................................ */
+
+            /* ................................. */
+            /* INICIO : Título pagina            */
+            /* ................................. */
+            .Are-you-a-United-State-person {
+                width: 307px;
+                height: 49px;
+                position: absolute;
+                left: 530px;
+                top: 265px ;
+                right: 529px ;
+                bottom: 454px ;
+                font-family: Poppins;
+                font-size: 21.3px;
+                font-weight: 600;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.3;
+                letter-spacing: normal;
+                text-align: center;
+                color: #294397;
+            }
+            /* ................................. */
+            /* Fin: Título pagina                */
+            /* ................................. */
+
+            /* ................................. */
+            /* Inicio: Option yes - radio button */
+            /* ................................. */
+
+            .input4[type="radio"]{
+                display: none;
+              }
+              .input4[type="radio"] + label span {
+                display: inline-block;
+                width: 10px;
+                height: 10px;
+                background: transparent;
+                vertical-align: middle;
+                border: 2px solid  #294397;
+                border-radius: 50%;
+                padding: 2px;
+                margin:0 5px;
+              }
+              .input4[type="radio"]:checked + label span {
+                width: 10px;
+                height: 10px;
+                background:  #294397;
+                background-clip: content-box;
+              } 
+            .Yes {
+                position: absolute;
+                left: 618.9px;
+                right: 694.2px;
+                top: 363.8px;
+                bottom: 393.5px;
+                width: 52.9px;
+                height: 10.6px;
+                flex-grow: 0;
+                font-family: Poppins;
+                font-size: 12.8px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1;
+                letter-spacing: normal;
+                text-align: center;
+                color: #294397;
+            }
+
+            .input18[type="radio"]{
+                display: none;
+              }
+              .input18[type="radio"] + label span {
+                display: inline-block;
+                width: 10px;
+                height: 10px;
+                background: transparent;
+                vertical-align: middle;
+                border: 2px solid  #294397;
+                border-radius: 50%;
+                padding: 2px;
+                margin:0 5px;
+              }
+              .input18[type="radio"]:checked + label span {
+                width: 10px;
+                height: 10px;
+                background:  #294397;
+                background-clip: content-box;
+              } 
+           
+
+            .Titlepage{
+                width: 307px;
+                height: 49px;
+                position: absolute;
+                left: 530px;
+                right: 529px;
+                top: 265px;
+                bottom: 454px;
+                font-family: Poppins;
+                font-size: 21.3px;
+                font-weight: 600;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.3;
+                letter-spacing: normal;
+                text-align: center;
+                color: #294397;
+              }
+
+            /* ................................. */
+            /* Fin: Option yes - radio button    */
+            /* ................................. */
+
+            /* ................................. */
+            /* Inicio: Option no - radio button  */
+            /* ................................. */
+            .input16[type="radio"]{
+                display: none;
+              }
+              .input16[type="radio"] + label span {
+                display: inline-block;
+                width: 10px;
+                height: 10px;
+                background: transparent;
+                vertical-align: middle;
+                border: 2px solid  #294397;
+                border-radius: 50%;
+                padding: 2px;
+                margin:0 5px;
+              }
+              .input16[type="radio"]:checked + label span {
+                width: 10px;
+                height: 10px;
+                background:  #294397;
+                background-clip: content-box;
+              } 
+            .No {
+                position: absolute;
+                left: 710.1;
+                right: 694.2px;
+                top: 363.8px;
+                bottom: 393.5px;
+                width: 52.9px;
+                height: 10.6px;
+                flex-grow: 0;
+                margin: 2.8px 0 3.5px 16.9px;
+                font-family: Poppins;
+                font-size: 12.8px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1;
+                letter-spacing: normal;
+                text-align: center;
+                color: #294397;
+            }
+            /* ................................. */
+            /* Fin: Option no - radio button     */
+            /* ................................. */
+
+            /* ................................. */
+            /* Inicio : Note                     */
+            /* ................................. */
+            .Note {
+                width: 473px;
+                height: 81px;
+                position: absolute;
+                left: 446px;
+                top: 424px ;
+                right: 447px ;
+                bottom: 263px ;
+                font-family: Poppins;
+                font-size: 12.8px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.3;
+                letter-spacing: normal;
+                text-align: center;
+                color: #454545;
+              }
+            /* ................................. */
+            /* Fin : Note                        */
+            /* ................................. */
+              
+            .Note1 {
+                font-weight: 600;
+            }
+
